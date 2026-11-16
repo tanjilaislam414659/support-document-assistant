@@ -1,0 +1,59 @@
+[
+  {
+    "details": {
+      "directive": "include",
+      "fetched": false,
+      "target": "../includes/wasm-mobile-notavail.rst"
+    },
+    "kind": "excluded",
+    "reason": "unresolved_include",
+    "source_id": "py-venv",
+    "source_lines": [
+      59,
+      59
+    ]
+  },
+  {
+    "details": {
+      "directive": "include",
+      "fetched": false,
+      "target": "../includes/wasm-mobile-notavail.rst"
+    },
+    "kind": "excluded",
+    "reason": "unresolved_include",
+    "source_id": "py-ensurepip",
+    "source_lines": [
+      41,
+      41
+    ]
+  },
+  {
+    "details": {
+      "audit_asset_id": "audit-python312",
+      "audit_lines": [
+        1368,
+        1375
+      ],
+      "audit_role": "audit_only_not_retrieval_corpus",
+      "eligibility": "ineligible_for_python_3_13_answer_support",
+      "human_reviewed_on": null,
+      "human_reviewer": null,
+      "human_status": "pending",
+      "issue_id": "stale-distutils",
+      "lines": [
+        58,
+        64
+      ],
+      "reason": "Claims distutils remains in the standard library; removed in Python 3.12.",
+      "review_origin": "AI-assisted verification requested by user",
+      "source_id": "py-installing"
+    },
+    "kind": "excluded",
+    "reason": "source_quality",
+    "source_id": "py-installing",
+    "source_lines": [
+      58,
+      64
+    ]
+  }
+]

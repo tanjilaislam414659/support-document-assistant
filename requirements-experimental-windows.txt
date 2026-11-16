@@ -1,0 +1,6 @@
+# Optional tokenizer/template tooling. GGUF inference uses a separately supplied native CPU runtime.
+Jinja2==3.1.6
+transformers==4.57.3
+tokenizers==0.22.2
+huggingface-hub==0.36.2
+safetensors==0.8.0

@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-16",
+  "checkout_commit": "1ebb03ee1b54f216ac4007034661afb44594b3d3",
+  "platform": "Windows 11",
+  "python": "3.13.5",
+  "steps": [
+    {
+      "name": "create-environment",
+      "returncode": 0,
+      "seconds": 8.164114900049753
+    },
+    {
+      "name": "build-dependency",
+      "returncode": 0,
+      "seconds": 7.674155599961523
+    },
+    {
+      "name": "default-dependencies",
+      "returncode": 0,
+      "seconds": 11.192253399989568
+    },
+    {
+      "name": "install-documented-app",
+      "returncode": 0,
+      "seconds": 2.527605900017079
+    },
+    {
+      "name": "default-no-ml",
+      "returncode": 0,
+      "seconds": 0.051084899983834475
+    },
+    {
+      "name": "test-dependencies",
+      "returncode": 0,
+      "seconds": 13.401220900006592
+    },
+    {
+      "name": "pip-check",
+      "returncode": 0,
+      "seconds": 0.6606108999694698
+    },
+    {
+      "name": "content-audit",
+      "returncode": 0,
+      "seconds": 1.3651761000510305
+    },
+    {
+      "name": "sparse-ci-checkout",
+      "returncode": 0,
+      "seconds": 0.05767589999595657
+    },
+    {
+      "name": "api-tests",
+      "returncode": 0,
+      "seconds": 1.283837000024505
+    },
+    {
+      "name": "portable-tests",
+      "returncode": 0,
+      "seconds": 0.9191562000196427
+    },
+    {
+      "name": "browser",
+      "returncode": 0,
+      "seconds": 5.61246850003954
+    },
+    {
+      "name": "docker-build",
+      "returncode": 0,
+      "seconds": 18.532550200005062
+    },
+    {
+      "name": "container",
+      "returncode": 0,
+      "seconds": 15.184313500009011
+    },
+    {
+      "name": "restore-full-checkout",
+      "returncode": 0,
+      "seconds": 0.09094289998756722
+    },
+    {
+      "name": "install-optional-source",
+      "returncode": 0,
+      "seconds": 2.4694592999876477
+    },
+    {
+      "name": "optional-template-dependency",
+      "returncode": 0,
+      "seconds": 2.119556699995883
+    }
+  ],
+  "real_inference_requests": 0,
+  "benchmark_questions": 0,
+  "hosted_actions": "pending",
+  "default_cli": {
+    "corpus_sources": 4,
+    "reviewed_revision": 2,
+    "loopback_test_port_override": true,
+    "experimental_enabled": false,
+    "real_corpus_queries": 0,
+    "generation_requests": 0,
+    "owned_server_stopped": true
+  },
+  "ci_yaml_parse": "passed; pinned identities/permissions also checked in content audit",
+  "ci_research_directories_absent": [
+    "research",
+    "src",
+    "config"
+  ],
+  "browser": {
+    "browser": "157.0.8103.78",
+    "channel": "chrome",
+    "checks": [
+      "keyboard_skip_link",
+      "search_literal_document_text_and_keyboard",
+      "select_create_edit_review_and_safe_ticket_text",
+      "copy_includes_saved_review_state",
+      "edit_invalidates_review_and_keeps_history",
+      "real_stale_revision_recovery",
+      "fake_generation_unverified_separate_and_literal",
+      "loading_and_empty_states",
+      "search_error_state",
+      "mobile_390px_no_horizontal_overflow",
+      "saved_limitations_view",
+      "partial_ui_edit_preserves_unedited_api_values",
+      "default_metadata_hides_generation_action",
+      "unavailable_metadata_hides_generation"
+    ],
+    "count": 14,
+    "page_errors": [],
+    "real_model_requests": 0,
+    "corpus": "invented-lantern-ui-v1",
+    "viewport_desktop": [
+      1440,
+      1000
+    ],
+    "viewport_mobile": [
+      390,
+      844
+    ]
+  },
+  "container": {
+    "checks": [
+      "actual_default_health_readiness_ui_and_generation_disabled",
+      "nonroot_readonly_files_no_ml_runtime_or_research_package",
+      "configured_readiness_healthcheck_healthy",
+      "synthetic_search_select_draft_edit_review_invalidation_and_stale_rejection",
+      "sqlite_content_revisions_reviews_persist_after_container_recreation",
+      "corrupt_artifact_health_live_readiness_and_search_503",
+      "missing_artifact_health_live_readiness_and_search_503",
+      "compose_loopback_readonly_and_dedicated_named_volume_contract",
+      "actual_compose_start_ready_and_host_loopback_8010"
+    ],
+    "count": 9,
+    "image": "support-document-assistant:0.2.0",
+    "image_id": "sha256:819e4bd47fbd907e419b09838b3c7b3971ff09ea600231d9b03c3bd1e85b9436",
+    "image_size_bytes": 206601906,
+    "default_time_to_process_health_seconds": 1.23424060002435,
+    "fixture_time_to_health_seconds": 1.10071709996555,
+    "elapsed_seconds": 14.727178000030108,
+    "linux": {
+      "uid": 10001,
+      "installed": {
+        "pip": "25.3",
+        "support-document-local-api": "0.2.0",
+        "typing-inspection": "0.4.5",
+        "fastapi": "0.163.1",
+        "annotated-types": "0.8.0",
+        "click": "8.5.1",
+        "opentelemetry-api": "1.45.2",
+        "anyio": "4.16.0",
+        "starlette": "1.10.0",
+        "pydantic": "2.14.3",
+        "h11": "0.16.0",
+        "typing_extensions": "4.16.0",
+        "annotated-doc": "0.0.6",
+        "uvicorn": "0.54.0",
+        "idna": "3.20",
+        "pydantic_core": "2.50.4"
+      },
+      "protected_paths_readonly": true,
+      "forbidden_artifacts": []
+    },
+    "query_corpus": "invented-lantern-ui-v1",
+    "real_model_requests": 0,
+    "production_corpus_queries": 0,
+    "cleanup": "owned UUID containers and volume only"
+  },
+  "optional_missing_artifacts": {
+    "corpus_sources": 4,
+    "reviewed_revision": 2,
+    "loopback_test_port_override": true,
+    "experimental_enabled": true,
+    "real_corpus_queries": 0,
+    "generation_requests": 0,
+    "owned_server_stopped": true
+  },
+  "clean_after": true,
+  "outcome": "passed",
+  "curation": "Selected local preparation verification record. Raw machine logs are excluded. checkout_commit identifies an intermediate preparation snapshot; the final public history is initialized afresh after privacy audit.",
+  "verified_final_payload": {
+    "files": 89,
+    "sha256": "1a35a7ebb38af5312b2b34f66907a99e9f0545f9b7bb3e80e7134b15522c8ca8",
+    "matches_tested_checkout": true
+  }
+}

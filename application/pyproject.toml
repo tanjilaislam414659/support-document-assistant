@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-document-local-api"
+version = "0.2.0"
+description = "Local source-first support API and revisioned ticket drafts"
+requires-python = ">=3.13,<3.14"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["fastapi==0.163.1", "uvicorn==0.54.0"]
+
+[project.optional-dependencies]
+test = ["httpx==0.28.1"]
+
+[project.scripts]
+support-local-api = "support_api.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+support_api = ["static/*", "resources/**/*", "resources/*"]

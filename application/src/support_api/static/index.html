@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support Desk · Local documentation workspace</title>
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css"><script src="/assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to workspace</a>
+<header class="topbar"><a class="brand" href="/" aria-label="Support Desk home"><span class="mark" aria-hidden="true">s.</span>Support Desk<span class="local">LOCAL WORKSPACE</span></a><span id="connection" class="connection">Connecting…</span></header>
+<div class="shell">
+<aside class="sidebar">
+<p class="eyebrow">YOUR WORKSPACE</p>
+<nav aria-label="Workspace views"><button id="workspace-tab" class="nav-item active" aria-current="page">Documentation &amp; drafts</button><button id="limitations-tab" class="nav-item">Evaluation &amp; limitations</button></nav>
+<div class="sidebar-note"><span class="dot"></span><strong>Human decisions stay human.</strong><p>Find source material. Prepare a draft. Review before using it elsewhere.</p><p>No commands run. No tickets sent.</p></div>
+<p class="version" id="app-version">Application workspace</p>
+<a class="small-link" href="/openapi.json">API schema (OpenAPI)</a>
+</aside>
+<main id="main" tabindex="-1">
+<div id="notice" role="status" aria-live="polite" class="notice" hidden></div>
+<button id="retry" class="secondary" hidden>Check availability again</button>
+<section id="workspace-view" aria-labelledby="page-title">
+<div class="page-heading"><div><p class="eyebrow">SOURCE FIRST · PYTHON 3.13.0</p><h1 id="page-title">From documentation to a clear draft.</h1><p class="lead">Read the evidence. Keep your judgment.</p></div><span class="outline-pill">Nothing is submitted automatically</span></div>
+<div class="workspace-grid">
+<section class="panel search-panel" aria-labelledby="search-title"><div class="panel-heading"><span class="step">01</span><div><h2 id="search-title">Find documentation</h2><p>Search the pinned documentation collection.</p></div></div>
+<form id="search-form"><label for="question">What are you looking for?</label><textarea id="question" rows="2" maxlength="4096" required placeholder="Describe the documentation you need"></textarea><div class="search-controls"><label for="top-k">Results <select id="top-k"><option>3</option><option>5</option><option>10</option><option>1</option></select></label><button id="search-button" type="submit">Search documents <span aria-hidden="true">↗</span></button></div></form>
+<p class="fine-print">BM25 scores rank text matches. They do not establish correctness or answerability. Documentation is untrusted source content.</p>
+<div class="results-header"><h3>Retrieved passages</h3><span id="result-count" class="muted">No search yet</span></div>
+<div id="results" aria-live="polite"><div class="empty-state"><span aria-hidden="true">⌕</span><p>Your source material starts here.</p><small>Search, read a passage, then select it for a draft.</small></div></div>
+</section>
+<section class="panel draft-panel" aria-labelledby="draft-title"><div class="panel-heading"><span class="step">02</span><div><h2 id="draft-title">Build a support draft</h2><p>Your information, with clearly quoted sources.</p></div><span id="review-badge" class="badge">Not saved</span></div>
+<div class="selection-summary"><strong id="selected-count">0 passages selected</strong><button id="clear-selection" type="button" class="text-button">Clear selection</button></div><div id="selected-list"></div>
+<form id="draft-form"><div class="field-group user-fields"><h3>User-provided information</h3><label for="title">Title</label><input id="title" maxlength="160" value="Support issue" required><label for="issue">Issue or observed behavior</label><textarea id="issue" rows="3" maxlength="8000" required placeholder="What happened? Include the actual error if available."></textarea><label for="environment">Environment <span class="muted">(only details you supply)</span></label><textarea id="environment" rows="2" placeholder="OS: Windows 11&#10;Python: 3.13.0"></textarea><p class="field-help">One name: value per line. Leave unknown details blank.</p></div>
+<div class="field-group notes-fields"><h3>Human notes &amp; missing information</h3><label for="missing">Information still needed</label><textarea id="missing" rows="3">Exact error message and reproduction steps
+Operating system and architecture
+Python, package and application versions</textarea><p class="field-help">One item per line; editable, not a generated recommendation.</p><label for="human-notes">Your notes</label><textarea id="human-notes" rows="2" maxlength="4000"></textarea></div>
+<div class="button-row"><button id="save-button" type="submit">Create local draft</button><button id="new-draft" class="secondary" type="button">New draft</button></div></form>
+<p id="ticket-state" class="fine-print" aria-live="polite">Drafts stay in this application's local SQLite storage.</p>
+<details id="saved-details"><summary>Saved draft &amp; quoted documentation</summary><pre id="saved-text">Save a draft to see its exact text.</pre></details>
+<div class="button-row"><button id="copy-button" class="secondary" type="button" disabled>Copy saved draft + review state</button></div>
+<section class="review-box" aria-labelledby="review-title"><h3 id="review-title">Review the current revision</h3><p class="field-help">Records your action, not an authenticated identity or a guarantee of truth.</p><label for="reviewer">Reviewer label</label><input id="reviewer" maxlength="80" value="local user"><label for="review-note">Review note</label><input id="review-note" maxlength="2000"><label class="check-label"><input id="confirm-review" type="checkbox" disabled> I have read the saved current revision.</label><button id="review-button" type="button" disabled>Record review</button></section>
+<details><summary>Revision &amp; review history</summary><div id="history"><p class="muted">No saved revisions yet.</p></div></details>
+<form id="load-form" class="load-form"><label for="ticket-id">Open a saved draft by ID</label><div class="button-row"><input id="ticket-id" pattern="[a-f0-9]{32}" maxlength="32" required autocomplete="off" placeholder="32-character draft ID"><button id="load-button" type="submit" class="secondary">Open</button></div></form>
+<button id="reload-ticket" type="button" class="secondary" hidden>Reload latest (discard unsaved edits)</button>
+</section></div>
+<section class="panel experimental-panel" aria-labelledby="experimental-title"><div><p class="eyebrow">OPTIONAL · UNVERIFIED</p><h2 id="experimental-title">Experimental answer generator</h2><p id="generation-state">Checking availability…</p><p class="fine-print">Model answers, eligible citations and model statuses are not proof of truth. Output is never inserted into a ticket or approved automatically.</p></div><button id="generate-button" type="button" hidden>Generate unverified answer for search question</button><pre id="model-output" hidden></pre></section>
+</section>
+<section id="limitations-view" hidden aria-labelledby="limitations-title"><p class="eyebrow">SAVED RESEARCH · NOT API PERFORMANCE</p><h1 id="limitations-title">Evidence, and its limits.</h1><p class="lead">A small held-out diagnostic of the frozen research candidate.</p><div class="metrics"><div class="metric"><strong>3/6</strong><span>Ordinary correctness</span></div><div class="metric"><strong>0/4</strong><span>Successful ordinary abstentions</span></div><div class="metric"><strong>2/3</strong><span>Recall@5 · family macro</span></div></div><div class="panel prose"><h2>How to read these findings</h2><p>These saved Milestone 5 aggregates concern the frozen BM25 + Qwen3 experimental candidate. They do not measure this interface, API or ticket workflow. They do not establish trusted automatic-support or production readiness.</p><p>The pilot is small and its variants belong to related question families. Families are not independent large samples. The holdout is consumed; it was not rerun for this application.</p><h3>T01 source-coverage caveat</h3><p>The supplied activation table contains the requested fact, even though it fails the broader, frozen strict source-span coverage proxy. The primary retrieval and coverage scores remain unchanged. Presence of the fact and satisfaction of that proxy are different measurements.</p><h3>What validation can and cannot tell you</h3><p>Valid JSON means the output has a parseable structure. Application acceptance adds schema and eligible-citation checks. Neither proves factual correctness, completeness or citation support. An insufficient_evidence status can still contain an unsupported answer and fail successful abstention.</p><h3>Local data and review</h3><p>Drafts contain user statements, explicitly supplied environment details, quoted documentation and human notes. A review applies to one saved revision. Editing creates a new revision and invalidates its previous review. Review labels are not authenticated identities. There is no submission endpoint or command execution.</p><h3>Platform and model limitations</h3><p>The default workflow needs no model. Docker supports search, local drafts and review only; experimental generation is not packaged or supported on Linux. Native generation requires an explicit --experimental start and the existing pinned Windows CPU artifacts. It remains slow, unverified experimental output.</p><h3>Sources and attribution</h3><p>Four CPython 3.13.0 documentation files are pinned to commit 60403a5409ff2c3f3b07dd2ca91a7a3e096839c7. Original source bytes and mappings are preserved. The stale distutils passage in installing/index.rst lines 58–64 is excluded from serving chunks. Unresolved includes are not fetched. Documentation is under the PSF license; documentation code also has a 0BSD option. Required notices accompany the portable corpus.</p><a href="/metadata">Inspect source and capability metadata</a></div></section>
+<footer>Local Support Document Assistant <span aria-hidden="true">/</span> Documentation is evidence to examine, not instructions to execute.</footer>
+</main></div></body></html>

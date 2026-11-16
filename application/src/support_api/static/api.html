@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Local API reference</title><link rel="stylesheet" href="/assets/style.css"></head><body><main class="prose panel"><a href="/">← Workspace</a><h1>Local support API · 0.2.0</h1><p>Typed request and response schemas: <a href="/openapi.json">OpenAPI JSON</a>. This local reference requires no external scripts or styles.</p><p>GET /health checks the process. GET /ready returns 503 if corpus/index or SQLite is unavailable. GET /metadata lists pinned sources, measured limitations and experimental availability.</p><h2>Search</h2><pre>POST /search
+{"question":"Your documentation question","top_k":3}</pre><p>Ranked complete source-linked passages. Scores do not establish truth.</p><h2>Draft and edit</h2><pre>POST /tickets/draft
+{"issue":"Your observed issue","environment":{"OS":"User-supplied value"},"selected_sources":[]}
+
+GET /tickets/{id}
+
+PATCH /tickets/{id}
+{"expected_revision":1,"human_notes":"Your edited note"}</pre><p>Select source_id/passage_id pairs returned by search. Unknown IDs are rejected. Every edit creates a revision and invalidates prior review. A stale expected_revision returns 409.</p><h2>Review</h2><pre>POST /tickets/{id}/review
+{"expected_revision":2,"confirm_review":true,"reviewer_label":"local user","note":"Read this saved revision"}</pre><p>Review records a local user action, not authenticated identity or truth. There is no sending endpoint.</p><h2>Optional experimental generation</h2><pre>POST /experimental/answer
+{"question":"Your question"}</pre><p>Disabled by default (403). Native explicit --experimental opt-in only. Not packaged or supported in Docker. Output stays unverified, separate from tickets. Application validation is not semantic correctness.</p></main></body></html>

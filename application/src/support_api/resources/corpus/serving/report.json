@@ -1,0 +1,74 @@
+{
+  "assets": 8,
+  "audit_assets_served": 0,
+  "build_id": "27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90",
+  "chunks": 40,
+  "corpus_bytes": 53924,
+  "corpus_documents": 4,
+  "exclusions": 3,
+  "limitations": [
+    "Conservative inert RST, not full Sphinx rendering.",
+    "Unresolved includes may omit platform-availability caveats.",
+    "No semantic correctness or human evidence approval inferred."
+  ],
+  "max_chunk_characters": 9763,
+  "over_target_atomic_chunks": 3,
+  "overlap_characters": 0,
+  "per_source": [
+    {
+      "chunks": 15,
+      "exclusions": 1,
+      "raw_bytes": 32020,
+      "source_id": "py-venv"
+    },
+    {
+      "chunks": 3,
+      "exclusions": 1,
+      "raw_bytes": 5074,
+      "source_id": "py-ensurepip"
+    },
+    {
+      "chunks": 8,
+      "exclusions": 0,
+      "raw_bytes": 7416,
+      "source_id": "py-tutorial-venv"
+    },
+    {
+      "chunks": 14,
+      "exclusions": 1,
+      "raw_bytes": 9414,
+      "source_id": "py-installing"
+    }
+  ],
+  "schema_version": 1,
+  "unresolved_includes": [
+    {
+      "details": {
+        "directive": "include",
+        "fetched": false,
+        "target": "../includes/wasm-mobile-notavail.rst"
+      },
+      "kind": "excluded",
+      "reason": "unresolved_include",
+      "source_id": "py-venv",
+      "source_lines": [
+        59,
+        59
+      ]
+    },
+    {
+      "details": {
+        "directive": "include",
+        "fetched": false,
+        "target": "../includes/wasm-mobile-notavail.rst"
+      },
+      "kind": "excluded",
+      "reason": "unresolved_include",
+      "source_id": "py-ensurepip",
+      "source_lines": [
+        41,
+        41
+      ]
+    }
+  ]
+}

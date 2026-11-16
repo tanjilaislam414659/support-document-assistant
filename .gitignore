@@ -1,0 +1,12 @@
+.venv/
+.local-tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+models/
+application/.app-data/
+release-assets/

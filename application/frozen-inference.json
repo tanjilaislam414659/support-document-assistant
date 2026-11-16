@@ -1,0 +1,397 @@
+{
+  "candidate_id": "qwen3-4b-q4km-cpu-nothink-diagnostic-v1",
+  "context_tokens": 4096,
+  "generation_timeout_seconds": 120,
+  "host": "127.0.0.1",
+  "http_threads": 1,
+  "max_answer_characters": 400,
+  "max_citations": 3,
+  "memory_limit_bytes": 8589934592,
+  "memory_sample_interval_seconds": 0.1,
+  "metadata_timeout_seconds": 10,
+  "model_file": "Qwen3-4B-Q4_K_M.gguf",
+  "model_path": "models/qwen3-4b-gguf/bc640142c66e1fdd12af0bd68f40445458f3869b/Qwen3-4B-Q4_K_M.gguf",
+  "model_repository": "Qwen/Qwen3-4B-GGUF",
+  "model_revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+  "output_token_cap": 192,
+  "parallel": 1,
+  "port": 18084,
+  "runtime_arguments": [
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18084",
+    "--parallel",
+    "1",
+    "--threads-http",
+    "1",
+    "--threads",
+    "2",
+    "--threads-batch",
+    "2",
+    "--ctx-size",
+    "4096",
+    "--batch-size",
+    "512",
+    "--ubatch-size",
+    "512",
+    "--n-gpu-layers",
+    "0",
+    "--device",
+    "none",
+    "--fit",
+    "off",
+    "--flash-attn",
+    "off",
+    "--cache-type-k",
+    "f16",
+    "--cache-type-v",
+    "f16",
+    "--no-warmup",
+    "--no-context-shift",
+    "--no-webui",
+    "--timeout",
+    "60",
+    "--seed",
+    "0",
+    "--temp",
+    "0",
+    "--predict",
+    "192",
+    "--jinja",
+    "--chat-template-file",
+    "{official_template_file}",
+    "--reasoning",
+    "off",
+    "--chat-template-kwargs",
+    "{\"enable_thinking\":false}",
+    "--reasoning-format",
+    "none"
+  ],
+  "runtime_commit": "f3b407ca1bfeeecebf9e9ef19fcd6eed565bd70a",
+  "runtime_directory": "models/gguf-preflight/llama-b12283-win-cpu-x64",
+  "runtime_tag": "b12283",
+  "sampling": {
+    "dry_multiplier": 0,
+    "frequency_penalty": 0,
+    "min_p": 0,
+    "mirostat": 0,
+    "presence_penalty": 0,
+    "repeat_last_n": 0,
+    "repeat_penalty": 1,
+    "seed": 0,
+    "temperature": 0,
+    "top_k": 1,
+    "top_p": 1,
+    "typical_p": 1,
+    "xtc_probability": 0
+  },
+  "startup_timeout_seconds": 60,
+  "template_file": "config/qwen3-official-template.jinja",
+  "thinking": {
+    "enable_thinking": false,
+    "prefix_verification": "native equals official sandbox render(False), differs from True; closed empty think block required",
+    "prompt_suffix_no_think_added": false,
+    "reasoning": "off",
+    "reasoning_format": "none"
+  },
+  "threads": 2,
+  "threads_batch": 2,
+  "model_bytes": 2497280256,
+  "model_sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+  "runtime_files": [
+    {
+      "bytes": 834560,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-base.dll",
+      "sha256": "9aea1ed3d6ff61508ae582557e49e3981cf974550affe3ade664823e1c452823"
+    },
+    {
+      "bytes": 1460736,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-alderlake.dll",
+      "sha256": "a03f07b4f19ff57e987bd203ca159f098475057b12c8f09894997dcec723987a"
+    },
+    {
+      "bytes": 1694208,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-cannonlake.dll",
+      "sha256": "0588af376609e9ae6c80f7c2fcabf2ff1489534ddb5ac8a5a6aaae2816091932"
+    },
+    {
+      "bytes": 1667072,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-cascadelake.dll",
+      "sha256": "965f40b859a7cff34d056739aa708e6c66cffe17c3af0cfffbfbdb25a12592c2"
+    },
+    {
+      "bytes": 1676800,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-cooperlake.dll",
+      "sha256": "3591f1ee526e831eef5b3f023ec7b233c90bbbc23180a36d019f4f2cfef07cfd"
+    },
+    {
+      "bytes": 1465856,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-haswell.dll",
+      "sha256": "debfc03a02b9d0a2f9f94fd7e10718141f2314c42e51277b9bc41e5876a259e8"
+    },
+    {
+      "bytes": 1673728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-icelake.dll",
+      "sha256": "0546cfa170b81f5de96b4fcfe68b74f33d775af2ae75e970b527cc1cb082f347"
+    },
+    {
+      "bytes": 1347072,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-ivybridge.dll",
+      "sha256": "051ec648e31c8fe7b9ea8488af925ecbea164b8dfab9d3814e9f7d1225266a25"
+    },
+    {
+      "bytes": 1340416,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-piledriver.dll",
+      "sha256": "5ea448f82b4f91bc2b554fceeca16c0cd040646657ad2a57546d7220b639e04b"
+    },
+    {
+      "bytes": 1317376,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-sandybridge.dll",
+      "sha256": "b3227af7cdef19cb39b8d551515f001fc3b61e3ef783e34ee64c80b18e950b2f"
+    },
+    {
+      "bytes": 1953792,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-sapphirerapids.dll",
+      "sha256": "6cbe5accac30407190334e3dfef4b111cb3edc9e022e60aca122f59def6e6e1e"
+    },
+    {
+      "bytes": 1687552,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-skylakex.dll",
+      "sha256": "e8f4ac77a36b124913ae03e54c992d65009673b4be83ce8583823eb94c0a01b6"
+    },
+    {
+      "bytes": 941568,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-sse42.dll",
+      "sha256": "557dde7910ce44f5187a0d36708adc83c1e637b4d752b5f3999e1f56e2203495"
+    },
+    {
+      "bytes": 932352,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-x64.dll",
+      "sha256": "bf9ec3fedcf0fdb39768aa9530e07ccc88174d2e1ce21daa1edf44f8d8c976f6"
+    },
+    {
+      "bytes": 1683456,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-cpu-zen4.dll",
+      "sha256": "b4c2c28000d061b02c41972c873ffde9aa77e96a644d06e43a672e06f013ab9a"
+    },
+    {
+      "bytes": 117248,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-rpc-server.exe",
+      "sha256": "6a98108c54e78aae45c64b908b1d026e5f13c6334dc5874c8588443cac41131f"
+    },
+    {
+      "bytes": 234496,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml-rpc.dll",
+      "sha256": "0527f8c9960d2e1495ea0f02acb54c3f9b0efc004fec3f20aa9b3fba9df650e9"
+    },
+    {
+      "bytes": 78848,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/ggml.dll",
+      "sha256": "d399394784e9f162e574a348e5beeb5f7daf4d87e13955b101729f7bed299668"
+    },
+    {
+      "bytes": 768000,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/libomp.dll",
+      "sha256": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c"
+    },
+    {
+      "bytes": 19741,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/LICENSE-LLVM-OpenMP",
+      "sha256": "fdad1758a9e1f9d5a81e18879b3406772115edc92c24bfa36b70c654f325e8e4"
+    },
+    {
+      "bytes": 62464,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-batched-bench-impl.dll",
+      "sha256": "314fb6e29d5ba56f73af785ad4f67588ff460d67ddcbf950731d437985ed88f1"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-batched-bench.exe",
+      "sha256": "b5f2ec97439879f0b5f8ba43b9b34112493d443dccdd75d79466490ed37050c1"
+    },
+    {
+      "bytes": 406016,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-bench-impl.dll",
+      "sha256": "216aafa26abcf368548c96be9342eb928d558351bad6ba8439b663e6dc1f2ac0"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-bench.exe",
+      "sha256": "e654965209e55c7cf818a0c4ad0774f12519710664ba1c5d79e002a5178727ba"
+    },
+    {
+      "bytes": 3397632,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-cli-impl.dll",
+      "sha256": "9c22c0d2312f8a66258e2ecf7bfc5f2f4a4ee1913baffd8d9a5c64da2afa140f"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-cli.exe",
+      "sha256": "43cad160bddb6a7e2031cb5f06e7d28b44707ad4271bd99ef91f49d53c1c2587"
+    },
+    {
+      "bytes": 8401408,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-common.dll",
+      "sha256": "577917df8b7e8b3ea9c94c94be45a687a314934b724607b9ee732c5418478745"
+    },
+    {
+      "bytes": 139264,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-completion-impl.dll",
+      "sha256": "c7207f98edc0150f39bc0fc0dc9874c4cbfa8f5d749cb667cd7e34f6a58df739"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-completion.exe",
+      "sha256": "a6c98a7a5c565035c0f321043f7070c6dd707d4ac2eb833d6955bec65b1b8303"
+    },
+    {
+      "bytes": 11473920,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-connect.exe",
+      "sha256": "9f2bdd778f96971995a80add8d6b2478c156f799933337a19dbf80cdaad21b1d"
+    },
+    {
+      "bytes": 48128,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-fit-params-impl.dll",
+      "sha256": "33a862832333f8db71d0f05bac2d86afb2a4122145f15c553dd8754051681801"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-fit-params.exe",
+      "sha256": "29b4a56c181ae70de5ba727490dee9188809290f0cb437bb06585ce05f91c40c"
+    },
+    {
+      "bytes": 27648,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-gemma3-cli.exe",
+      "sha256": "f96857e59cf6220724e771461d742d7e1734892747989ac38df99f64f9e80b20"
+    },
+    {
+      "bytes": 61952,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-gguf-split.exe",
+      "sha256": "c84b51c1260885e97eabd5516e9a7240e3cdae86375e4c9cc6d16857d06f7fda"
+    },
+    {
+      "bytes": 254976,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-imatrix.exe",
+      "sha256": "79590f2e8c1594dcff093c5e748c4a127dfe23fe1331ce1ee10b7be03b3089c7"
+    },
+    {
+      "bytes": 27648,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-llava-cli.exe",
+      "sha256": "f96857e59cf6220724e771461d742d7e1734892747989ac38df99f64f9e80b20"
+    },
+    {
+      "bytes": 27648,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-minicpmv-cli.exe",
+      "sha256": "f96857e59cf6220724e771461d742d7e1734892747989ac38df99f64f9e80b20"
+    },
+    {
+      "bytes": 97792,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-mtmd-cli.exe",
+      "sha256": "7515162735a17050180226b8c1e673cf9f4e4833a89ae64af47f10129210314a"
+    },
+    {
+      "bytes": 56832,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-mtmd-debug.exe",
+      "sha256": "b9cd77dd062f13cc3181fc36877ba7141dcb118ceaac2d286011f53c258ad752"
+    },
+    {
+      "bytes": 198144,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-perplexity-impl.dll",
+      "sha256": "563f824a444acda90a4fa4154b323df1ae0a88fb8edf80f02e2873325f571900"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-perplexity.exe",
+      "sha256": "068bdfcb49e7f584d312acf337e2888ba242dcb5c90d7e998b236d574730441c"
+    },
+    {
+      "bytes": 137216,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-quantize-impl.dll",
+      "sha256": "fac2dbc9e94ae5d6477a65340124ec844938e51b24a62c04fa0844b6e967417b"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-quantize.exe",
+      "sha256": "0f3d91981c61b9305ba5b690543b352adf14186bcd4e02b05d8130de4e88510d"
+    },
+    {
+      "bytes": 27648,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-qwen2vl-cli.exe",
+      "sha256": "f96857e59cf6220724e771461d742d7e1734892747989ac38df99f64f9e80b20"
+    },
+    {
+      "bytes": 47616,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-results.exe",
+      "sha256": "b277af637a8594bb03311b0ee161cf4bf56bb9f77df5606a3a39cfef231faff0"
+    },
+    {
+      "bytes": 10292224,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-server-impl.dll",
+      "sha256": "41cd7b6001f31f569d8b2891b15de460fc50279033f5f0ca60c22d2248b45168"
+    },
+    {
+      "bytes": 9728,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-server.exe",
+      "sha256": "f9c45c8880180d6e6dd9f2e6077b5e4cabb8af6ae5e013d710712543cdc3cdc5"
+    },
+    {
+      "bytes": 59904,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-tokenize.exe",
+      "sha256": "e6c91cc1a073750a64d1e540b06a1bedd5cbb8d243c2dc4939d04fac04d5ce2c"
+    },
+    {
+      "bytes": 47104,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-tts.exe",
+      "sha256": "f518b6aad4b89cc323288de4c486b0f12369dc72386f9afc7936b8d63858496d"
+    },
+    {
+      "bytes": 3886080,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama.dll",
+      "sha256": "c9ee3e6cee5ce2ddb8e1eaed54df9ed79b0b48f97edadf93fe0ea8b08a48f128"
+    },
+    {
+      "bytes": 105984,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama.exe",
+      "sha256": "46cde2b2b415b330b99869f3e77449c66369a2183ede10f96e6f1a2463df71a6"
+    },
+    {
+      "bytes": 2243584,
+      "path": "models/gguf-preflight/llama-b12283-win-cpu-x64/mtmd.dll",
+      "sha256": "9d1242264ca4faea48f470d3c413b8895d99737e5070ad0fdd2184a715527fe7"
+    }
+  ],
+  "server_executable": "models/gguf-preflight/llama-b12283-win-cpu-x64/llama-server.exe",
+  "template_sha256": "57f1fd00f0013a2be96aa79b857391f27e23df5b5f847072b524c897e24d0361",
+  "packing_config": {
+    "context_total_tokens": 2048,
+    "output_token_cap": 192,
+    "packing": {
+      "attempts_per_parent_per_round": 1,
+      "block_order": "original source ordinal",
+      "identity": "source-block-round-robin-v1",
+      "model_passage_format": "[passage_id, eligible_for_citation, exact_text]",
+      "model_section_titles": 2,
+      "oversized": "omit whole block; record standalone and candidate token totals",
+      "parent_order": "retrieval rank, controls retain frozen unit order",
+      "question_dependent_scoring": false,
+      "retries": 0
+    },
+    "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+    "model_max_position_embeddings": 32768
+  },
+  "prompt_file": "config/answer-prompt-v2.txt",
+  "prompt_sha256": "a79937759a30d0eb5515488089bc71dba0c664f9311e182e4fe62df058b0c3be",
+  "frozen_code": {
+    "src/support_document_assistant/serving.py": "4d7c76b8bb5fcf5567112a484b0cbbedfdbeee484e7cf88b2b43ed3a8b95809c",
+    "src/support_document_assistant/retrieval.py": "62a2847c10911833f28603c6875021456a34ae759c5f963def35a1fb4c497a76",
+    "src/support_document_assistant/block_packing_v2.py": "36d1e768c286d64acf955b42d9ad256c0fb956bc55d9e6619a7d82ef0b44d070",
+    "src/support_document_assistant/generation_context.py": "7f3ee3a080c63774482c534da86b4cc74ee0f583ed4ca717611399b6878bb60b",
+    "src/support_document_assistant/generation_parser_v2.py": "f9fc02792bbc457675308f1f69e5d8aa0c560649fd477a8574914f78ccebd7e1",
+    "src/support_document_assistant/generation_output.py": "2cca2ee537124d7e2e6458df6611239a2ad1ffc3ceb3ee54b882ff05b6ebc334",
+    "src/support_document_assistant/qwen3_followup120_transport.py": "e3a43e3ea7309ab8c8e73924e3281c670f13025c507b3d529bbe0b1bfb1de71f",
+    "src/support_document_assistant/gguf_preflight_adapter.py": "3dbfd9d6410ab217087f74e5248e3a6ff0fa481dd26b052f38012aa7df19750d",
+    "src/support_document_assistant/generator_backend.py": "069ddbdbb1a104cad3528ba0e787f4ae7bc3fdf01577f5cbca160cbf1133bb3b",
+    "src/support_document_assistant/generator_assets.py": "5906773e731be54c31af46179f228c7a2475a38876899f23125a2b4e33a34098"
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "T01-v1": {
+    "required_claims": [
+      "windows-powershell-script"
+    ],
+    "claim_matches": {
+      "windows-powershell-script": {
+        "complete": false,
+        "alternatives": [
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  200,
+                  223
+                ],
+                "source_char_range": [
+                  7853,
+                  9553
+                ],
+                "required_nonwhitespace_characters": 1383,
+                "covered_nonwhitespace_characters": 956,
+                "complete": false,
+                "contributing_chunk_ids": [
+                  "supplied::E2-S1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": false,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  },
+  "T01-v2": {
+    "required_claims": [
+      "windows-powershell-script"
+    ],
+    "claim_matches": {
+      "windows-powershell-script": {
+        "complete": false,
+        "alternatives": [
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  200,
+                  223
+                ],
+                "source_char_range": [
+                  7853,
+                  9553
+                ],
+                "required_nonwhitespace_characters": 1383,
+                "covered_nonwhitespace_characters": 956,
+                "complete": false,
+                "contributing_chunk_ids": [
+                  "supplied::E1-S1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": false,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  },
+  "T02-v1": {
+    "required_claims": [
+      "venv-pip-default",
+      "venv-without-pip"
+    ],
+    "claim_matches": {
+      "venv-pip-default": {
+        "complete": false,
+        "alternatives": [
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  179,
+                  180
+                ],
+                "source_char_range": [
+                  7071,
+                  7201
+                ],
+                "required_nonwhitespace_characters": 113,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          },
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  136,
+                  138
+                ],
+                "source_char_range": [
+                  5562,
+                  5672
+                ],
+                "required_nonwhitespace_characters": 90,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          },
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  98,
+                  133
+                ],
+                "source_char_range": [
+                  3606,
+                  5560
+                ],
+                "required_nonwhitespace_characters": 1216,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          },
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-installing",
+                "lines": [
+                  42,
+                  44
+                ],
+                "source_char_range": [
+                  1533,
+                  1749
+                ],
+                "required_nonwhitespace_characters": 179,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          }
+        ]
+      },
+      "venv-without-pip": {
+        "complete": false,
+        "alternatives": [
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  179,
+                  180
+                ],
+                "source_char_range": [
+                  7071,
+                  7201
+                ],
+                "required_nonwhitespace_characters": 113,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          },
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  98,
+                  133
+                ],
+                "source_char_range": [
+                  3606,
+                  5560
+                ],
+                "required_nonwhitespace_characters": 1216,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": false,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  },
+  "T02-v2": {
+    "required_claims": [
+      "venv-without-pip"
+    ],
+    "claim_matches": {
+      "venv-without-pip": {
+        "complete": false,
+        "alternatives": [
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  179,
+                  180
+                ],
+                "source_char_range": [
+                  7071,
+                  7201
+                ],
+                "required_nonwhitespace_characters": 113,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          },
+          {
+            "complete": false,
+            "passages": [
+              {
+                "source_id": "py-venv",
+                "lines": [
+                  98,
+                  133
+                ],
+                "source_char_range": [
+                  3606,
+                  5560
+                ],
+                "required_nonwhitespace_characters": 1216,
+                "covered_nonwhitespace_characters": 0,
+                "complete": false,
+                "contributing_chunk_ids": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": false,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  },
+  "T03-v1": {
+    "required_claims": [
+      "exact-version-syntax"
+    ],
+    "claim_matches": {
+      "exact-version-syntax": {
+        "complete": true,
+        "alternatives": [
+          {
+            "complete": true,
+            "passages": [
+              {
+                "source_id": "py-installing",
+                "lines": [
+                  95,
+                  101
+                ],
+                "source_char_range": [
+                  3851,
+                  4265
+                ],
+                "required_nonwhitespace_characters": 340,
+                "covered_nonwhitespace_characters": 340,
+                "complete": true,
+                "contributing_chunk_ids": [
+                  "supplied::E3-S5"
+                ]
+              }
+            ]
+          },
+          {
+            "complete": true,
+            "passages": [
+              {
+                "source_id": "py-tutorial-venv",
+                "lines": [
+                  120,
+                  129
+                ],
+                "source_char_range": [
+                  4250,
+                  4618
+                ],
+                "required_nonwhitespace_characters": 309,
+                "covered_nonwhitespace_characters": 309,
+                "complete": true,
+                "contributing_chunk_ids": [
+                  "supplied::E2-S6",
+                  "supplied::E2-S7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": true,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  },
+  "T03-v2": {
+    "required_claims": [
+      "specific-package-example"
+    ],
+    "claim_matches": {
+      "specific-package-example": {
+        "complete": true,
+        "alternatives": [
+          {
+            "complete": true,
+            "passages": [
+              {
+                "source_id": "py-installing",
+                "lines": [
+                  95,
+                  101
+                ],
+                "source_char_range": [
+                  3851,
+                  4265
+                ],
+                "required_nonwhitespace_characters": 340,
+                "covered_nonwhitespace_characters": 340,
+                "complete": true,
+                "contributing_chunk_ids": [
+                  "supplied::E1-S5"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "complete": true,
+    "rule": "source-character-coverage-v1",
+    "semantic_sufficiency": "not_established"
+  }
+}

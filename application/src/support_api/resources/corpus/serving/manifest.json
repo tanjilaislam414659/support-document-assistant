@@ -1,0 +1,28 @@
+{
+  "artifacts": {
+    "chunks.jsonl": "42ca7a51b9d0a97d9185a78d0b2e51a4d153dae9ca9dc3970fda1d447d76d457",
+    "exclusions.json": "e0f3300851080a972a360298eb87bbd4bc63a669ec1ced9bd14d7f2f1a8351c1",
+    "report.json": "098a72bb7fe5681ae29687b7f824046efa16999995364a35e74d07add32a03e4"
+  },
+  "build_id": "27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90",
+  "inputs": {
+    "assets": {
+      "audit-python312": "79736511e354c2e7b5841c6cb09fec1b417d509d75db9c8068d15ceb037c1ff6",
+      "copyright": "2f455e3bd119869bf01369ab852d87d11c9e67e5351a7ebc64ab2c0af344aff6",
+      "license": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb",
+      "license-details": "fde6c4707ae1b5a637285ca44162602bd94fa388a6f6157f1e4aceac113b8bde",
+      "py-ensurepip": "ca7151b19ab7b8d8deae66bc5deb3c67fc78973a78bdc89d865148ee4f58dd1d",
+      "py-installing": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+      "py-tutorial-venv": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+      "py-venv": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c"
+    },
+    "implementation_sha256": {
+      "assets.py": "837165784c9e85ddfb2fcc4d54f3b27e635f88cb03ccd12703061e3f0038105a",
+      "chunking.py": "b10f54a9c5de08114f5ea04cd185fcfb8f541dec8c213b2f3032cc8555a67477",
+      "ingestion.py": "cd80029a44cb45f1d4525a8dfae8aa9b45db8d60c87bc5259aa4ffa89e8f42b6"
+    },
+    "policy_sha256": "7edfe5e610b6653ef1389b47942a50ff1c51bebc2e9b2bbbabeea218e0708a03",
+    "registry_sha256": "78556fa80766a5ffe9bf465f1999dd4e2fa7aa72c1832fb2e41c097fc1170c9c"
+  },
+  "schema_version": 1
+}

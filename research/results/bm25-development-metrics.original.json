@@ -1,0 +1,4704 @@
+{
+  "descriptive_only": [
+    {
+      "candidate_count": 30,
+      "candidates": [
+        {
+          "chunk_id": "chunk-0ab03b2ebfae64ca33f1a3967ac3d44b1a114f3c891e4bb255cda108872912d1",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 7.316543801917204,
+          "section_titles": [
+            "Virtual Environments and Packages",
+            "Creating Virtual Environments"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                59
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                1416,
+                1475
+              ],
+              "source_lines": [
+                35,
+                36
+              ]
+            },
+            {
+              "chunk_char_range": [
+                61,
+                349
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1477,
+                1765
+              ],
+              "source_lines": [
+                38,
+                42
+              ]
+            },
+            {
+              "chunk_char_range": [
+                351,
+                536
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                1767,
+                1952
+              ],
+              "source_lines": [
+                44,
+                47
+              ]
+            },
+            {
+              "chunk_char_range": [
+                538,
+                718
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1954,
+                2134
+              ],
+              "source_lines": [
+                49,
+                51
+              ]
+            },
+            {
+              "chunk_char_range": [
+                720,
+                1041
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2136,
+                2457
+              ],
+              "source_lines": [
+                53,
+                57
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1043,
+                1106
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2459,
+                2522
+              ],
+              "source_lines": [
+                59,
+                59
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1108,
+                1158
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2524,
+                2574
+              ],
+              "source_lines": [
+                61,
+                63
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1160,
+                1219
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2576,
+                2635
+              ],
+              "source_lines": [
+                65,
+                67
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1221,
+                1414
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2637,
+                2830
+              ],
+              "source_lines": [
+                69,
+                72
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1416,
+                1661
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2832,
+                3077
+              ],
+              "source_lines": [
+                74,
+                77
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1663,
+                1944
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                3079,
+                3360
+              ],
+              "source_lines": [
+                79,
+                89
+              ]
+            }
+          ],
+          "source_id": "py-tutorial-venv",
+          "source_path": "Doc/tutorial/venv.rst",
+          "source_sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+          "text_sha256": "e7ddc7556dadc8a2d6bc54132c87d1a94e7125572d929485c18a167497380d46"
+        },
+        {
+          "chunk_id": "chunk-35d28ef33ba9cb1bb7bd999e7675a9af87f92d0de859ffb27a678e97b81051a2",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 6.778123149004781,
+          "section_titles": [
+            "Installing Python Modules",
+            "Basic usage"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                23
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                3278,
+                3301
+              ],
+              "source_lines": [
+                75,
+                76
+              ]
+            },
+            {
+              "chunk_char_range": [
+                25,
+                104
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3303,
+                3382
+              ],
+              "source_lines": [
+                78,
+                79
+              ]
+            },
+            {
+              "chunk_char_range": [
+                106,
+                263
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3384,
+                3541
+              ],
+              "source_lines": [
+                81,
+                84
+              ]
+            },
+            {
+              "chunk_char_range": [
+                265,
+                571
+              ],
+              "kind": "note",
+              "source_char_range": [
+                3543,
+                3849
+              ],
+              "source_lines": [
+                86,
+                93
+              ]
+            },
+            {
+              "chunk_char_range": [
+                573,
+                986
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3851,
+                4264
+              ],
+              "source_lines": [
+                95,
+                101
+              ]
+            },
+            {
+              "chunk_char_range": [
+                988,
+                1199
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                4266,
+                4477
+              ],
+              "source_lines": [
+                103,
+                107
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1354
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4479,
+                4632
+              ],
+              "source_lines": [
+                109,
+                110
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1356,
+                1514
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4634,
+                4792
+              ],
+              "source_lines": [
+                112,
+                114
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1516,
+                1653
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                4794,
+                4931
+              ],
+              "source_lines": [
+                116,
+                119
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "90ef4f69fabaff57990de642fdf6ab67cb8e35f05a51e8dd718f3937004cb343"
+        },
+        {
+          "chunk_id": "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 6.1298378110042115,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                568
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10008,
+                10576
+              ],
+              "source_lines": [
+                238,
+                245
+              ]
+            },
+            {
+              "chunk_char_range": [
+                570,
+                883
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10578,
+                10891
+              ],
+              "source_lines": [
+                247,
+                251
+              ]
+            },
+            {
+              "chunk_char_range": [
+                885,
+                1829
+              ],
+              "kind": "warning",
+              "source_char_range": [
+                10893,
+                11837
+              ],
+              "source_lines": [
+                253,
+                265
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "952d688e55928307f391c36486bd121cf5ac0a97d24aba2e52f4fa33fc31a85f"
+        },
+        {
+          "chunk_id": "chunk-d4104611b6567d9f2bee40a9294531034dc053012a8661addcc278e91430f243",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 5.293663568491369,
+          "section_titles": [
+            "Installing Python Modules",
+            "How do I ...?"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                27
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                4934,
+                4961
+              ],
+              "source_lines": [
+                122,
+                123
+              ]
+            },
+            {
+              "chunk_char_range": [
+                29,
+                84
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4963,
+                5018
+              ],
+              "source_lines": [
+                125,
+                125
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "9f34f140fe524dc9559d71da36a070cb73760663f44bf999618e8f0ebbdd155f"
+        },
+        {
+          "chunk_id": "chunk-90ada577b77dedf9d76dce2b1ca45e922add0e501e623912f5cad6b26cb70601",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 5.070081415218401,
+          "section_titles": [
+            "Installing Python Modules",
+            "How do I ...?",
+            "... work with multiple versions of Python installed in parallel?"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                129
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                6304,
+                6433
+              ],
+              "source_lines": [
+                164,
+                165
+              ]
+            },
+            {
+              "chunk_char_range": [
+                131,
+                540
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                6435,
+                6844
+              ],
+              "source_lines": [
+                167,
+                174
+              ]
+            },
+            {
+              "chunk_char_range": [
+                542,
+                605
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6846,
+                6909
+              ],
+              "source_lines": [
+                176,
+                176
+              ]
+            },
+            {
+              "chunk_char_range": [
+                607,
+                936
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                6911,
+                7240
+              ],
+              "source_lines": [
+                178,
+                184
+              ]
+            },
+            {
+              "chunk_char_range": [
+                938,
+                957
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7242,
+                7261
+              ],
+              "source_lines": [
+                186,
+                186
+              ]
+            },
+            {
+              "chunk_char_range": [
+                959,
+                1234
+              ],
+              "kind": "indented",
+              "source_char_range": [
+                7263,
+                7538
+              ],
+              "source_lines": [
+                188,
+                191
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "39f868e9815c4eca0e50a211dece63d706ec629f6818627de245a87ece6e1fcd"
+        }
+      ],
+      "case_id": "D04",
+      "family_id": "D04",
+      "kind": "unanswerable",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "What exact proxy address and password should I use on my employer's network?",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D04-v1"
+    },
+    {
+      "candidate_count": 34,
+      "candidates": [
+        {
+          "chunk_id": "chunk-0027c6460918a9b94e61fdcef83b24500777227ecb1bc416a94d975c7edb571e",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 5.289814553816824,
+          "section_titles": [
+            "Virtual Environments and Packages",
+            "Managing Packages with pip"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                376
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                5410,
+                5786
+              ],
+              "source_lines": [
+                151,
+                164
+              ]
+            },
+            {
+              "chunk_char_range": [
+                378,
+                471
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                5788,
+                5881
+              ],
+              "source_lines": [
+                166,
+                167
+              ]
+            },
+            {
+              "chunk_char_range": [
+                473,
+                619
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                5883,
+                6029
+              ],
+              "source_lines": [
+                169,
+                176
+              ]
+            },
+            {
+              "chunk_char_range": [
+                621,
+                843
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6031,
+                6253
+              ],
+              "source_lines": [
+                178,
+                180
+              ]
+            },
+            {
+              "chunk_char_range": [
+                845,
+                1015
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                6255,
+                6425
+              ],
+              "source_lines": [
+                182,
+                188
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1017,
+                1193
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6427,
+                6603
+              ],
+              "source_lines": [
+                190,
+                192
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1195,
+                1653
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                6605,
+                7063
+              ],
+              "source_lines": [
+                194,
+                205
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1655,
+                1902
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7065,
+                7312
+              ],
+              "source_lines": [
+                207,
+                210
+              ]
+            }
+          ],
+          "source_id": "py-tutorial-venv",
+          "source_path": "Doc/tutorial/venv.rst",
+          "source_sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+          "text_sha256": "c342a53eaf4133a1a94dbf0ccee4a81e9735e7797c527e821860cbf132fe2d4d"
+        },
+        {
+          "chunk_id": "chunk-b60613001d4d53a33e56d113e0f2fc777feacd498d813493b8cf327da1005090",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 4.48680851368,
+          "section_titles": [
+            "Installing Python Modules"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                77
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                44,
+                121
+              ],
+              "source_lines": [
+                5,
+                7
+              ]
+            },
+            {
+              "chunk_char_range": [
+                79,
+                111
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                123,
+                155
+              ],
+              "source_lines": [
+                9,
+                9
+              ]
+            },
+            {
+              "chunk_char_range": [
+                113,
+                334
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                157,
+                378
+              ],
+              "source_lines": [
+                11,
+                13
+              ]
+            },
+            {
+              "chunk_char_range": [
+                336,
+                579
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                380,
+                623
+              ],
+              "source_lines": [
+                15,
+                18
+              ]
+            },
+            {
+              "chunk_char_range": [
+                581,
+                743
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                625,
+                787
+              ],
+              "source_lines": [
+                20,
+                22
+              ]
+            },
+            {
+              "chunk_char_range": [
+                745,
+                846
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                789,
+                890
+              ],
+              "source_lines": [
+                24,
+                24
+              ]
+            },
+            {
+              "chunk_char_range": [
+                848,
+                1147
+              ],
+              "kind": "note",
+              "source_char_range": [
+                892,
+                1191
+              ],
+              "source_lines": [
+                26,
+                31
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "0cc18b82d6e169c40eb0092adffd418e6c3bb7317ab1567982ed5a71f0ceb172"
+        },
+        {
+          "chunk_id": "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/ensurepip.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 2.6288308126778657,
+          "section_titles": [
+            ":mod:`!ensurepip` --- Bootstrapping the ``pip`` installer"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                115
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                0,
+                115
+              ],
+              "source_lines": [
+                1,
+                2
+              ]
+            },
+            {
+              "chunk_char_range": [
+                117,
+                261
+              ],
+              "kind": "module",
+              "source_char_range": [
+                117,
+                261
+              ],
+              "source_lines": [
+                4,
+                6
+              ]
+            },
+            {
+              "chunk_char_range": [
+                263,
+                284
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                263,
+                284
+              ],
+              "source_lines": [
+                8,
+                8
+              ]
+            },
+            {
+              "chunk_char_range": [
+                286,
+                326
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                286,
+                326
+              ],
+              "source_lines": [
+                10,
+                10
+              ]
+            },
+            {
+              "chunk_char_range": [
+                328,
+                342
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                328,
+                342
+              ],
+              "source_lines": [
+                12,
+                12
+              ]
+            },
+            {
+              "chunk_char_range": [
+                344,
+                730
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                344,
+                730
+              ],
+              "source_lines": [
+                14,
+                19
+              ]
+            },
+            {
+              "chunk_char_range": [
+                732,
+                1021
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                732,
+                1021
+              ],
+              "source_lines": [
+                21,
+                25
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1023,
+                1183
+              ],
+              "kind": "note",
+              "source_char_range": [
+                1023,
+                1183
+              ],
+              "source_lines": [
+                27,
+                31
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1185,
+                1415
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                1185,
+                1415
+              ],
+              "source_lines": [
+                33,
+                39
+              ]
+            }
+          ],
+          "source_id": "py-ensurepip",
+          "source_path": "Doc/library/ensurepip.rst",
+          "source_sha256": "ca7151b19ab7b8d8deae66bc5deb3c67fc78973a78bdc89d865148ee4f58dd1d",
+          "text_sha256": "f2cd320f4c9aabb0f8d8b5f64df9cac3f3e13bb6401ef9b3fc1ac307183649ef"
+        },
+        {
+          "chunk_id": "chunk-a6426d4c4c27cc55a858eba74d748547da41c358e97a19e16345cf2b451596cb",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 2.5553861473751236,
+          "section_titles": [
+            "Virtual Environments and Packages",
+            "Managing Packages with pip"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                53
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                3443,
+                3496
+              ],
+              "source_lines": [
+                97,
+                98
+              ]
+            },
+            {
+              "chunk_char_range": [
+                55,
+                311
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3498,
+                3754
+              ],
+              "source_lines": [
+                100,
+                103
+              ]
+            },
+            {
+              "chunk_char_range": [
+                313,
+                473
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3756,
+                3916
+              ],
+              "source_lines": [
+                105,
+                107
+              ]
+            },
+            {
+              "chunk_char_range": [
+                475,
+                554
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3918,
+                3997
+              ],
+              "source_lines": [
+                109,
+                109
+              ]
+            },
+            {
+              "chunk_char_range": [
+                556,
+                805
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                3999,
+                4248
+              ],
+              "source_lines": [
+                111,
+                118
+              ]
+            },
+            {
+              "chunk_char_range": [
+                807,
+                930
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4250,
+                4373
+              ],
+              "source_lines": [
+                120,
+                121
+              ]
+            },
+            {
+              "chunk_char_range": [
+                932,
+                1174
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                4375,
+                4617
+              ],
+              "source_lines": [
+                123,
+                129
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1176,
+                1448
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4619,
+                4891
+              ],
+              "source_lines": [
+                131,
+                134
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1450,
+                1766
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                4893,
+                5209
+              ],
+              "source_lines": [
+                136,
+                144
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1768,
+                1888
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                5211,
+                5331
+              ],
+              "source_lines": [
+                146,
+                147
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1890,
+                1965
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                5333,
+                5408
+              ],
+              "source_lines": [
+                149,
+                149
+              ]
+            }
+          ],
+          "source_id": "py-tutorial-venv",
+          "source_path": "Doc/tutorial/venv.rst",
+          "source_sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+          "text_sha256": "499bc02987d88a2e6e2eef394f442e43b41b157b433bbf88a4b0ebad5287cad3"
+        },
+        {
+          "chunk_id": "chunk-a88d2ab4edf69c4a0595ffa53d195dc234699cb6d0c58ed9ab950c6640578e63",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/ensurepip.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 2.5025813813698305,
+          "section_titles": [
+            ":mod:`!ensurepip` --- Bootstrapping the ``pip`` installer",
+            "Command line interface"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                45
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                1468,
+                1513
+              ],
+              "source_lines": [
+                43,
+                44
+              ]
+            },
+            {
+              "chunk_char_range": [
+                47,
+                123
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1515,
+                1591
+              ],
+              "source_lines": [
+                46,
+                46
+              ]
+            },
+            {
+              "chunk_char_range": [
+                125,
+                187
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                1593,
+                1655
+              ],
+              "source_lines": [
+                48,
+                50
+              ]
+            },
+            {
+              "chunk_char_range": [
+                189,
+                456
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                1657,
+                1924
+              ],
+              "source_lines": [
+                52,
+                57
+              ]
+            },
+            {
+              "chunk_char_range": [
+                458,
+                713
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1926,
+                2181
+              ],
+              "source_lines": [
+                59,
+                62
+              ]
+            },
+            {
+              "chunk_char_range": [
+                715,
+                927
+              ],
+              "kind": "list_item",
+              "source_char_range": [
+                2183,
+                2395
+              ],
+              "source_lines": [
+                64,
+                66
+              ]
+            },
+            {
+              "chunk_char_range": [
+                929,
+                1127
+              ],
+              "kind": "list_item",
+              "source_char_range": [
+                2396,
+                2594
+              ],
+              "source_lines": [
+                67,
+                69
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1129,
+                1354
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2596,
+                2821
+              ],
+              "source_lines": [
+                71,
+                74
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1356,
+                1465
+              ],
+              "kind": "list_item",
+              "source_char_range": [
+                2823,
+                2932
+              ],
+              "source_lines": [
+                76,
+                77
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1467,
+                1612
+              ],
+              "kind": "list_item",
+              "source_char_range": [
+                2934,
+                3079
+              ],
+              "source_lines": [
+                79,
+                80
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1614,
+                1687
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3081,
+                3154
+              ],
+              "source_lines": [
+                82,
+                82
+              ]
+            }
+          ],
+          "source_id": "py-ensurepip",
+          "source_path": "Doc/library/ensurepip.rst",
+          "source_sha256": "ca7151b19ab7b8d8deae66bc5deb3c67fc78973a78bdc89d865148ee4f58dd1d",
+          "text_sha256": "5c5947cc9acbdce1791e4f7848d10eb2f8db311879313cabaea6e9b54ed0719f"
+        }
+      ],
+      "case_id": "D04",
+      "family_id": "D04",
+      "kind": "unanswerable",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "Tell me the corporate pip proxy credentials for my workplace.",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D04-v2"
+    },
+    {
+      "candidate_count": 25,
+      "candidates": [
+        {
+          "chunk_id": "chunk-0ab03b2ebfae64ca33f1a3967ac3d44b1a114f3c891e4bb255cda108872912d1",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 6.434965674214533,
+          "section_titles": [
+            "Virtual Environments and Packages",
+            "Creating Virtual Environments"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                59
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                1416,
+                1475
+              ],
+              "source_lines": [
+                35,
+                36
+              ]
+            },
+            {
+              "chunk_char_range": [
+                61,
+                349
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1477,
+                1765
+              ],
+              "source_lines": [
+                38,
+                42
+              ]
+            },
+            {
+              "chunk_char_range": [
+                351,
+                536
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                1767,
+                1952
+              ],
+              "source_lines": [
+                44,
+                47
+              ]
+            },
+            {
+              "chunk_char_range": [
+                538,
+                718
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1954,
+                2134
+              ],
+              "source_lines": [
+                49,
+                51
+              ]
+            },
+            {
+              "chunk_char_range": [
+                720,
+                1041
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2136,
+                2457
+              ],
+              "source_lines": [
+                53,
+                57
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1043,
+                1106
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2459,
+                2522
+              ],
+              "source_lines": [
+                59,
+                59
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1108,
+                1158
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2524,
+                2574
+              ],
+              "source_lines": [
+                61,
+                63
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1160,
+                1219
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2576,
+                2635
+              ],
+              "source_lines": [
+                65,
+                67
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1221,
+                1414
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2637,
+                2830
+              ],
+              "source_lines": [
+                69,
+                72
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1416,
+                1661
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2832,
+                3077
+              ],
+              "source_lines": [
+                74,
+                77
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1663,
+                1944
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                3079,
+                3360
+              ],
+              "source_lines": [
+                79,
+                89
+              ]
+            }
+          ],
+          "source_id": "py-tutorial-venv",
+          "source_path": "Doc/tutorial/venv.rst",
+          "source_sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+          "text_sha256": "e7ddc7556dadc8a2d6bc54132c87d1a94e7125572d929485c18a167497380d46"
+        },
+        {
+          "chunk_id": "chunk-35d28ef33ba9cb1bb7bd999e7675a9af87f92d0de859ffb27a678e97b81051a2",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 5.5380728870655345,
+          "section_titles": [
+            "Installing Python Modules",
+            "Basic usage"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                23
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                3278,
+                3301
+              ],
+              "source_lines": [
+                75,
+                76
+              ]
+            },
+            {
+              "chunk_char_range": [
+                25,
+                104
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3303,
+                3382
+              ],
+              "source_lines": [
+                78,
+                79
+              ]
+            },
+            {
+              "chunk_char_range": [
+                106,
+                263
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3384,
+                3541
+              ],
+              "source_lines": [
+                81,
+                84
+              ]
+            },
+            {
+              "chunk_char_range": [
+                265,
+                571
+              ],
+              "kind": "note",
+              "source_char_range": [
+                3543,
+                3849
+              ],
+              "source_lines": [
+                86,
+                93
+              ]
+            },
+            {
+              "chunk_char_range": [
+                573,
+                986
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3851,
+                4264
+              ],
+              "source_lines": [
+                95,
+                101
+              ]
+            },
+            {
+              "chunk_char_range": [
+                988,
+                1199
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                4266,
+                4477
+              ],
+              "source_lines": [
+                103,
+                107
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1354
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4479,
+                4632
+              ],
+              "source_lines": [
+                109,
+                110
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1356,
+                1514
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4634,
+                4792
+              ],
+              "source_lines": [
+                112,
+                114
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1516,
+                1653
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                4794,
+                4931
+              ],
+              "source_lines": [
+                116,
+                119
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "90ef4f69fabaff57990de642fdf6ab67cb8e35f05a51e8dd718f3937004cb343"
+        },
+        {
+          "chunk_id": "chunk-0e594cb23087cd24dadcc09179340c2739bee11fca7f480abcae4a50581ae293",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 5.083575000605398,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                216
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                11839,
+                12055
+              ],
+              "source_lines": [
+                267,
+                269
+              ]
+            },
+            {
+              "chunk_char_range": [
+                218,
+                231
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                12058,
+                12071
+              ],
+              "source_lines": [
+                272,
+                272
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "90811b20ae1a054407e82092bd9df79689f10e0c183c14ea0b5d53318a1b5b34"
+        },
+        {
+          "chunk_id": "chunk-6492f195000f0616928023a5acca62cb4228cb99588096a6c9e3bdea9c43fe9e",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 3.8962005715237518,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "An example of extending ``EnvBuilder``"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                9763
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                22159,
+                31922
+              ],
+              "source_lines": [
+                521,
+                729
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "71c3131879920b66b95d6d2d4a5677cb6efcaa60498a4ce76261689edbac5ae6"
+        },
+        {
+          "chunk_id": "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 3.5921498695715792,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                568
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10008,
+                10576
+              ],
+              "source_lines": [
+                238,
+                245
+              ]
+            },
+            {
+              "chunk_char_range": [
+                570,
+                883
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10578,
+                10891
+              ],
+              "source_lines": [
+                247,
+                251
+              ]
+            },
+            {
+              "chunk_char_range": [
+                885,
+                1829
+              ],
+              "kind": "warning",
+              "source_char_range": [
+                10893,
+                11837
+              ],
+              "source_lines": [
+                253,
+                265
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "952d688e55928307f391c36486bd121cf5ac0a97d24aba2e52f4fa33fc31a85f"
+        }
+      ],
+      "case_id": "D05",
+      "family_id": "D05",
+      "kind": "unanswerable",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "What exact change fixes pip TLS failures in my company's security appliance?",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D05-v1"
+    },
+    {
+      "candidate_count": 29,
+      "candidates": [
+        {
+          "chunk_id": "chunk-2f2ef6a9b69d1616783ca064755e95945bd008b4324d548d20109c05eb11c1d6",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 6.186065515237521,
+          "section_titles": [
+            "Installing Python Modules",
+            "Common installation issues",
+            "Pip not installed"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                35
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                8147,
+                8182
+              ],
+              "source_lines": [
+                210,
+                211
+              ]
+            },
+            {
+              "chunk_char_range": [
+                37,
+                161
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                8184,
+                8308
+              ],
+              "source_lines": [
+                213,
+                215
+              ]
+            },
+            {
+              "chunk_char_range": [
+                163,
+                341
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                8310,
+                8488
+              ],
+              "source_lines": [
+                217,
+                218
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "c79358d708e10ca4bce26596568773508e919fc278aac908521de050ddc694c6"
+        },
+        {
+          "chunk_id": "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 6.071323875718668,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                568
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10008,
+                10576
+              ],
+              "source_lines": [
+                238,
+                245
+              ]
+            },
+            {
+              "chunk_char_range": [
+                570,
+                883
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                10578,
+                10891
+              ],
+              "source_lines": [
+                247,
+                251
+              ]
+            },
+            {
+              "chunk_char_range": [
+                885,
+                1829
+              ],
+              "kind": "warning",
+              "source_char_range": [
+                10893,
+                11837
+              ],
+              "source_lines": [
+                253,
+                265
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "952d688e55928307f391c36486bd121cf5ac0a97d24aba2e52f4fa33fc31a85f"
+        },
+        {
+          "chunk_id": "chunk-6492f195000f0616928023a5acca62cb4228cb99588096a6c9e3bdea9c43fe9e",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 5.893689077468714,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "An example of extending ``EnvBuilder``"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                9763
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                22159,
+                31922
+              ],
+              "source_lines": [
+                521,
+                729
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "71c3131879920b66b95d6d2d4a5677cb6efcaa60498a4ce76261689edbac5ae6"
+        },
+        {
+          "chunk_id": "chunk-35d28ef33ba9cb1bb7bd999e7675a9af87f92d0de859ffb27a678e97b81051a2",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 5.887240400325687,
+          "section_titles": [
+            "Installing Python Modules",
+            "Basic usage"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                23
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                3278,
+                3301
+              ],
+              "source_lines": [
+                75,
+                76
+              ]
+            },
+            {
+              "chunk_char_range": [
+                25,
+                104
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3303,
+                3382
+              ],
+              "source_lines": [
+                78,
+                79
+              ]
+            },
+            {
+              "chunk_char_range": [
+                106,
+                263
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3384,
+                3541
+              ],
+              "source_lines": [
+                81,
+                84
+              ]
+            },
+            {
+              "chunk_char_range": [
+                265,
+                571
+              ],
+              "kind": "note",
+              "source_char_range": [
+                3543,
+                3849
+              ],
+              "source_lines": [
+                86,
+                93
+              ]
+            },
+            {
+              "chunk_char_range": [
+                573,
+                986
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3851,
+                4264
+              ],
+              "source_lines": [
+                95,
+                101
+              ]
+            },
+            {
+              "chunk_char_range": [
+                988,
+                1199
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                4266,
+                4477
+              ],
+              "source_lines": [
+                103,
+                107
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1354
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4479,
+                4632
+              ],
+              "source_lines": [
+                109,
+                110
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1356,
+                1514
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4634,
+                4792
+              ],
+              "source_lines": [
+                112,
+                114
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1516,
+                1653
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                4794,
+                4931
+              ],
+              "source_lines": [
+                116,
+                119
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "90ef4f69fabaff57990de642fdf6ab67cb8e35f05a51e8dd718f3937004cb343"
+        },
+        {
+          "chunk_id": "chunk-90ada577b77dedf9d76dce2b1ca45e922add0e501e623912f5cad6b26cb70601",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 5.8185625172716255,
+          "section_titles": [
+            "Installing Python Modules",
+            "How do I ...?",
+            "... work with multiple versions of Python installed in parallel?"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                129
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                6304,
+                6433
+              ],
+              "source_lines": [
+                164,
+                165
+              ]
+            },
+            {
+              "chunk_char_range": [
+                131,
+                540
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                6435,
+                6844
+              ],
+              "source_lines": [
+                167,
+                174
+              ]
+            },
+            {
+              "chunk_char_range": [
+                542,
+                605
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6846,
+                6909
+              ],
+              "source_lines": [
+                176,
+                176
+              ]
+            },
+            {
+              "chunk_char_range": [
+                607,
+                936
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                6911,
+                7240
+              ],
+              "source_lines": [
+                178,
+                184
+              ]
+            },
+            {
+              "chunk_char_range": [
+                938,
+                957
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7242,
+                7261
+              ],
+              "source_lines": [
+                186,
+                186
+              ]
+            },
+            {
+              "chunk_char_range": [
+                959,
+                1234
+              ],
+              "kind": "indented",
+              "source_char_range": [
+                7263,
+                7538
+              ],
+              "source_lines": [
+                188,
+                191
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "39f868e9815c4eca0e50a211dece63d706ec629f6818627de245a87ece6e1fcd"
+        }
+      ],
+      "case_id": "D05",
+      "family_id": "D05",
+      "kind": "unanswerable",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "Which corporate certificate should I install to fix my pip SSL error?",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D05-v2"
+    },
+    {
+      "candidate_count": 31,
+      "candidates": [
+        {
+          "chunk_id": "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 5.014146006215043,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                1199
+              ],
+              "kind": "grid_table",
+              "source_char_range": [
+                8353,
+                9552
+              ],
+              "source_lines": [
+                209,
+                223
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1280
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                9554,
+                9633
+              ],
+              "source_lines": [
+                225,
+                226
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1282,
+                1390
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                9635,
+                9743
+              ],
+              "source_lines": [
+                228,
+                230
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1392,
+                1653
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                9745,
+                10006
+              ],
+              "source_lines": [
+                232,
+                236
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "ed728656ae5480e58a037dce7a8b594b6a2b44088eb69b565bb187eb2b315164"
+        },
+        {
+          "chunk_id": "chunk-73eb7b6e8dcaea30609ef59f8ec4af816abc3d2e57e378118159af14aaf4c7f8",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 4.896165192393998,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                29
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                7386,
+                7415
+              ],
+              "source_lines": [
+                188,
+                189
+              ]
+            },
+            {
+              "chunk_char_range": [
+                31,
+                465
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7417,
+                7851
+              ],
+              "source_lines": [
+                191,
+                198
+              ]
+            },
+            {
+              "chunk_char_range": [
+                467,
+                965
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7853,
+                8351
+              ],
+              "source_lines": [
+                200,
+                207
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "ff2bb5ba0c10527fc90840b98ab52e333c28288aae8416c4b1f3852ec10fa16d"
+        },
+        {
+          "chunk_id": "chunk-9d5f2aa684b28d3c27d55905d003d776638a09cc53dd55ad23835a57dee86e72",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 4.718613844754169,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "Creating virtual environments"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                109
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5562,
+                5671
+              ],
+              "source_lines": [
+                136,
+                138
+              ]
+            },
+            {
+              "chunk_char_range": [
+                111,
+                284
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5673,
+                5846
+              ],
+              "source_lines": [
+                140,
+                142
+              ]
+            },
+            {
+              "chunk_char_range": [
+                286,
+                393
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5848,
+                5955
+              ],
+              "source_lines": [
+                144,
+                145
+              ]
+            },
+            {
+              "chunk_char_range": [
+                395,
+                475
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5957,
+                6037
+              ],
+              "source_lines": [
+                147,
+                149
+              ]
+            },
+            {
+              "chunk_char_range": [
+                477,
+                554
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                6039,
+                6116
+              ],
+              "source_lines": [
+                151,
+                153
+              ]
+            },
+            {
+              "chunk_char_range": [
+                556,
+                650
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                6117,
+                6211
+              ],
+              "source_lines": [
+                154,
+                155
+              ]
+            },
+            {
+              "chunk_char_range": [
+                652,
+                881
+              ],
+              "kind": "note",
+              "source_char_range": [
+                6213,
+                6442
+              ],
+              "source_lines": [
+                157,
+                160
+              ]
+            },
+            {
+              "chunk_char_range": [
+                883,
+                1315
+              ],
+              "kind": "note",
+              "source_char_range": [
+                6444,
+                6876
+              ],
+              "source_lines": [
+                162,
+                173
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1317,
+                1508
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6878,
+                7069
+              ],
+              "source_lines": [
+                175,
+                177
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1510,
+                1639
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7071,
+                7200
+              ],
+              "source_lines": [
+                179,
+                180
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1641,
+                1800
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7202,
+                7361
+              ],
+              "source_lines": [
+                182,
+                184
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1802,
+                1823
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7363,
+                7384
+              ],
+              "source_lines": [
+                186,
+                186
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "d723d50e5423ccac1be9ad992cad68a2d26852c17ef933edee1874ac01c68902"
+        },
+        {
+          "chunk_id": "chunk-4e5cab00f0d370786cfdd5df6667c181aa7c09e845f30b9dd299c5d14980f283",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 4.373632111487391,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "API"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                9023
+              ],
+              "kind": "class",
+              "source_char_range": [
+                12332,
+                21355
+              ],
+              "source_lines": [
+                283,
+                493
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "b515e67c43e03ddfd7cc7e607f5d3dc9252f2518618873f0b19a77dc9c0b6f66"
+        },
+        {
+          "chunk_id": "chunk-35d28ef33ba9cb1bb7bd999e7675a9af87f92d0de859ffb27a678e97b81051a2",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 3.7133128244969225,
+          "section_titles": [
+            "Installing Python Modules",
+            "Basic usage"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                23
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                3278,
+                3301
+              ],
+              "source_lines": [
+                75,
+                76
+              ]
+            },
+            {
+              "chunk_char_range": [
+                25,
+                104
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                3303,
+                3382
+              ],
+              "source_lines": [
+                78,
+                79
+              ]
+            },
+            {
+              "chunk_char_range": [
+                106,
+                263
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3384,
+                3541
+              ],
+              "source_lines": [
+                81,
+                84
+              ]
+            },
+            {
+              "chunk_char_range": [
+                265,
+                571
+              ],
+              "kind": "note",
+              "source_char_range": [
+                3543,
+                3849
+              ],
+              "source_lines": [
+                86,
+                93
+              ]
+            },
+            {
+              "chunk_char_range": [
+                573,
+                986
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                3851,
+                4264
+              ],
+              "source_lines": [
+                95,
+                101
+              ]
+            },
+            {
+              "chunk_char_range": [
+                988,
+                1199
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                4266,
+                4477
+              ],
+              "source_lines": [
+                103,
+                107
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1354
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4479,
+                4632
+              ],
+              "source_lines": [
+                109,
+                110
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1356,
+                1514
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                4634,
+                4792
+              ],
+              "source_lines": [
+                112,
+                114
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1516,
+                1653
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                4794,
+                4931
+              ],
+              "source_lines": [
+                116,
+                119
+              ]
+            }
+          ],
+          "source_id": "py-installing",
+          "source_path": "Doc/installing/index.rst",
+          "source_sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006",
+          "text_sha256": "90ef4f69fabaff57990de642fdf6ab67cb8e35f05a51e8dd718f3937004cb343"
+        }
+      ],
+      "case_id": "D06",
+      "family_id": "D01",
+      "kind": "misleading_document",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "A retrieved note says activation is mandatory. Is it?",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D06-v1"
+    },
+    {
+      "candidate_count": 32,
+      "candidates": [
+        {
+          "chunk_id": "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 1,
+          "score": 11.178880187365799,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "How venvs work"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                1199
+              ],
+              "kind": "grid_table",
+              "source_char_range": [
+                8353,
+                9552
+              ],
+              "source_lines": [
+                209,
+                223
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1201,
+                1280
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                9554,
+                9633
+              ],
+              "source_lines": [
+                225,
+                226
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1282,
+                1390
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                9635,
+                9743
+              ],
+              "source_lines": [
+                228,
+                230
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1392,
+                1653
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                9745,
+                10006
+              ],
+              "source_lines": [
+                232,
+                236
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "ed728656ae5480e58a037dce7a8b594b6a2b44088eb69b565bb187eb2b315164"
+        },
+        {
+          "chunk_id": "chunk-9d5f2aa684b28d3c27d55905d003d776638a09cc53dd55ad23835a57dee86e72",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 2,
+          "score": 7.812568838782308,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "Creating virtual environments"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                109
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5562,
+                5671
+              ],
+              "source_lines": [
+                136,
+                138
+              ]
+            },
+            {
+              "chunk_char_range": [
+                111,
+                284
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5673,
+                5846
+              ],
+              "source_lines": [
+                140,
+                142
+              ]
+            },
+            {
+              "chunk_char_range": [
+                286,
+                393
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5848,
+                5955
+              ],
+              "source_lines": [
+                144,
+                145
+              ]
+            },
+            {
+              "chunk_char_range": [
+                395,
+                475
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                5957,
+                6037
+              ],
+              "source_lines": [
+                147,
+                149
+              ]
+            },
+            {
+              "chunk_char_range": [
+                477,
+                554
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                6039,
+                6116
+              ],
+              "source_lines": [
+                151,
+                153
+              ]
+            },
+            {
+              "chunk_char_range": [
+                556,
+                650
+              ],
+              "kind": "versionchanged",
+              "source_char_range": [
+                6117,
+                6211
+              ],
+              "source_lines": [
+                154,
+                155
+              ]
+            },
+            {
+              "chunk_char_range": [
+                652,
+                881
+              ],
+              "kind": "note",
+              "source_char_range": [
+                6213,
+                6442
+              ],
+              "source_lines": [
+                157,
+                160
+              ]
+            },
+            {
+              "chunk_char_range": [
+                883,
+                1315
+              ],
+              "kind": "note",
+              "source_char_range": [
+                6444,
+                6876
+              ],
+              "source_lines": [
+                162,
+                173
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1317,
+                1508
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                6878,
+                7069
+              ],
+              "source_lines": [
+                175,
+                177
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1510,
+                1639
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7071,
+                7200
+              ],
+              "source_lines": [
+                179,
+                180
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1641,
+                1800
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7202,
+                7361
+              ],
+              "source_lines": [
+                182,
+                184
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1802,
+                1823
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                7363,
+                7384
+              ],
+              "source_lines": [
+                186,
+                186
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "d723d50e5423ccac1be9ad992cad68a2d26852c17ef933edee1874ac01c68902"
+        },
+        {
+          "chunk_id": "chunk-0ab03b2ebfae64ca33f1a3967ac3d44b1a114f3c891e4bb255cda108872912d1",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 3,
+          "score": 7.678941465319572,
+          "section_titles": [
+            "Virtual Environments and Packages",
+            "Creating Virtual Environments"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                59
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                1416,
+                1475
+              ],
+              "source_lines": [
+                35,
+                36
+              ]
+            },
+            {
+              "chunk_char_range": [
+                61,
+                349
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1477,
+                1765
+              ],
+              "source_lines": [
+                38,
+                42
+              ]
+            },
+            {
+              "chunk_char_range": [
+                351,
+                536
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                1767,
+                1952
+              ],
+              "source_lines": [
+                44,
+                47
+              ]
+            },
+            {
+              "chunk_char_range": [
+                538,
+                718
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                1954,
+                2134
+              ],
+              "source_lines": [
+                49,
+                51
+              ]
+            },
+            {
+              "chunk_char_range": [
+                720,
+                1041
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2136,
+                2457
+              ],
+              "source_lines": [
+                53,
+                57
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1043,
+                1106
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2459,
+                2522
+              ],
+              "source_lines": [
+                59,
+                59
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1108,
+                1158
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2524,
+                2574
+              ],
+              "source_lines": [
+                61,
+                63
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1160,
+                1219
+              ],
+              "kind": "literal_block",
+              "source_char_range": [
+                2576,
+                2635
+              ],
+              "source_lines": [
+                65,
+                67
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1221,
+                1414
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2637,
+                2830
+              ],
+              "source_lines": [
+                69,
+                72
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1416,
+                1661
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                2832,
+                3077
+              ],
+              "source_lines": [
+                74,
+                77
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1663,
+                1944
+              ],
+              "kind": "code-block",
+              "source_char_range": [
+                3079,
+                3360
+              ],
+              "source_lines": [
+                79,
+                89
+              ]
+            }
+          ],
+          "source_id": "py-tutorial-venv",
+          "source_path": "Doc/tutorial/venv.rst",
+          "source_sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac",
+          "text_sha256": "e7ddc7556dadc8a2d6bc54132c87d1a94e7125572d929485c18a167497380d46"
+        },
+        {
+          "chunk_id": "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/ensurepip.rst",
+          "product_version": "3.13.0",
+          "rank": 4,
+          "score": 6.892935988441919,
+          "section_titles": [
+            ":mod:`!ensurepip` --- Bootstrapping the ``pip`` installer"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                115
+              ],
+              "kind": "heading",
+              "source_char_range": [
+                0,
+                115
+              ],
+              "source_lines": [
+                1,
+                2
+              ]
+            },
+            {
+              "chunk_char_range": [
+                117,
+                261
+              ],
+              "kind": "module",
+              "source_char_range": [
+                117,
+                261
+              ],
+              "source_lines": [
+                4,
+                6
+              ]
+            },
+            {
+              "chunk_char_range": [
+                263,
+                284
+              ],
+              "kind": "versionadded",
+              "source_char_range": [
+                263,
+                284
+              ],
+              "source_lines": [
+                8,
+                8
+              ]
+            },
+            {
+              "chunk_char_range": [
+                286,
+                326
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                286,
+                326
+              ],
+              "source_lines": [
+                10,
+                10
+              ]
+            },
+            {
+              "chunk_char_range": [
+                328,
+                342
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                328,
+                342
+              ],
+              "source_lines": [
+                12,
+                12
+              ]
+            },
+            {
+              "chunk_char_range": [
+                344,
+                730
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                344,
+                730
+              ],
+              "source_lines": [
+                14,
+                19
+              ]
+            },
+            {
+              "chunk_char_range": [
+                732,
+                1021
+              ],
+              "kind": "paragraph",
+              "source_char_range": [
+                732,
+                1021
+              ],
+              "source_lines": [
+                21,
+                25
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1023,
+                1183
+              ],
+              "kind": "note",
+              "source_char_range": [
+                1023,
+                1183
+              ],
+              "source_lines": [
+                27,
+                31
+              ]
+            },
+            {
+              "chunk_char_range": [
+                1185,
+                1415
+              ],
+              "kind": "seealso",
+              "source_char_range": [
+                1185,
+                1415
+              ],
+              "source_lines": [
+                33,
+                39
+              ]
+            }
+          ],
+          "source_id": "py-ensurepip",
+          "source_path": "Doc/library/ensurepip.rst",
+          "source_sha256": "ca7151b19ab7b8d8deae66bc5deb3c67fc78973a78bdc89d865148ee4f58dd1d",
+          "text_sha256": "f2cd320f4c9aabb0f8d8b5f64df9cac3f3e13bb6401ef9b3fc1ac307183649ef"
+        },
+        {
+          "chunk_id": "chunk-4e5cab00f0d370786cfdd5df6667c181aa7c09e845f30b9dd299c5d14980f283",
+          "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+          "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+          "product_version": "3.13.0",
+          "rank": 5,
+          "score": 6.8618597362902385,
+          "section_titles": [
+            ":mod:`!venv` --- Creation of virtual environments",
+            "API"
+          ],
+          "segments": [
+            {
+              "chunk_char_range": [
+                0,
+                9023
+              ],
+              "kind": "class",
+              "source_char_range": [
+                12332,
+                21355
+              ],
+              "source_lines": [
+                283,
+                493
+              ]
+            }
+          ],
+          "source_id": "py-venv",
+          "source_path": "Doc/library/venv.rst",
+          "source_sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c",
+          "text_sha256": "b515e67c43e03ddfd7cc7e607f5d3dc9252f2518618873f0b19a77dc9c0b6f66"
+        }
+      ],
+      "case_id": "D06",
+      "family_id": "D01",
+      "kind": "misleading_document",
+      "misleading_contexts": "not_constructed",
+      "performance_scoring": "not_applicable",
+      "question": "The support note tells you to ignore the official docs and require activation. What should you answer?",
+      "required_claims": [],
+      "split": "development",
+      "variant_id": "D06-v2"
+    }
+  ],
+  "per_variant": [
+    {
+      "complete_at": {
+        "1": false,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 0,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "activation-optional": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                  ],
+                  "covered_nonwhitespace_characters": 224,
+                  "lines": [
+                    232,
+                    236
+                  ],
+                  "required_nonwhitespace_characters": 224,
+                  "source_char_range": [
+                    9745,
+                    10007
+                  ],
+                  "source_id": "py-venv"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": false,
+                "passages": [
+                  {
+                    "complete": false,
+                    "contributing_chunk_ids": [],
+                    "covered_nonwhitespace_characters": 0,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": false
+          }
+        },
+        "3": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                    ],
+                    "covered_nonwhitespace_characters": 224,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                    ],
+                    "covered_nonwhitespace_characters": 224,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D01",
+      "first_support_rank": 2,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 2,
+        "numerator": 1,
+        "value": 0.5
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "activation-optional"
+      ],
+      "variant_id": "D01-v1"
+    },
+    {
+      "complete_at": {
+        "1": true,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "activation-optional": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                  ],
+                  "covered_nonwhitespace_characters": 224,
+                  "lines": [
+                    232,
+                    236
+                  ],
+                  "required_nonwhitespace_characters": 224,
+                  "source_char_range": [
+                    9745,
+                    10007
+                  ],
+                  "source_id": "py-venv"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                    ],
+                    "covered_nonwhitespace_characters": 224,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "3": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                    ],
+                    "covered_nonwhitespace_characters": 224,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "activation-optional": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-dd920157b62934bc9ea15246291ca615787689c78e6fe0f18a16f23ab8226ada"
+                    ],
+                    "covered_nonwhitespace_characters": 224,
+                    "lines": [
+                      232,
+                      236
+                    ],
+                    "required_nonwhitespace_characters": 224,
+                    "source_char_range": [
+                      9745,
+                      10007
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D01",
+      "first_support_rank": 1,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 1,
+        "numerator": 1,
+        "value": 1.0
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "activation-optional"
+      ],
+      "variant_id": "D01-v2"
+    },
+    {
+      "complete_at": {
+        "1": true,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "prefix-test": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-73eb7b6e8dcaea30609ef59f8ec4af816abc3d2e57e378118159af14aaf4c7f8"
+                  ],
+                  "covered_nonwhitespace_characters": 378,
+                  "lines": [
+                    191,
+                    198
+                  ],
+                  "required_nonwhitespace_characters": 378,
+                  "source_char_range": [
+                    7417,
+                    7852
+                  ],
+                  "source_id": "py-venv"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "prefix-test": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-73eb7b6e8dcaea30609ef59f8ec4af816abc3d2e57e378118159af14aaf4c7f8"
+                    ],
+                    "covered_nonwhitespace_characters": 378,
+                    "lines": [
+                      191,
+                      198
+                    ],
+                    "required_nonwhitespace_characters": 378,
+                    "source_char_range": [
+                      7417,
+                      7852
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "3": {
+          "prefix-test": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-73eb7b6e8dcaea30609ef59f8ec4af816abc3d2e57e378118159af14aaf4c7f8"
+                    ],
+                    "covered_nonwhitespace_characters": 378,
+                    "lines": [
+                      191,
+                      198
+                    ],
+                    "required_nonwhitespace_characters": 378,
+                    "source_char_range": [
+                      7417,
+                      7852
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "prefix-test": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-73eb7b6e8dcaea30609ef59f8ec4af816abc3d2e57e378118159af14aaf4c7f8"
+                    ],
+                    "covered_nonwhitespace_characters": 378,
+                    "lines": [
+                      191,
+                      198
+                    ],
+                    "required_nonwhitespace_characters": 378,
+                    "source_char_range": [
+                      7417,
+                      7852
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D02",
+      "first_support_rank": 1,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 1,
+        "numerator": 1,
+        "value": 1.0
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "prefix-test"
+      ],
+      "variant_id": "D02-v1"
+    },
+    {
+      "complete_at": {
+        "1": true,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "virtual-env-not-enough": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f"
+                  ],
+                  "covered_nonwhitespace_characters": 269,
+                  "lines": [
+                    247,
+                    251
+                  ],
+                  "required_nonwhitespace_characters": 269,
+                  "source_char_range": [
+                    10578,
+                    10892
+                  ],
+                  "source_id": "py-venv"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "virtual-env-not-enough": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f"
+                    ],
+                    "covered_nonwhitespace_characters": 269,
+                    "lines": [
+                      247,
+                      251
+                    ],
+                    "required_nonwhitespace_characters": 269,
+                    "source_char_range": [
+                      10578,
+                      10892
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "3": {
+          "virtual-env-not-enough": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f"
+                    ],
+                    "covered_nonwhitespace_characters": 269,
+                    "lines": [
+                      247,
+                      251
+                    ],
+                    "required_nonwhitespace_characters": 269,
+                    "source_char_range": [
+                      10578,
+                      10892
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "virtual-env-not-enough": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-ade391fb91338c5c4c024de5c7367d08e8417a931332cc6695a9a19499dfac4f"
+                    ],
+                    "covered_nonwhitespace_characters": 269,
+                    "lines": [
+                      247,
+                      251
+                    ],
+                    "required_nonwhitespace_characters": 269,
+                    "source_char_range": [
+                      10578,
+                      10892
+                    ],
+                    "source_id": "py-venv"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D02",
+      "first_support_rank": 1,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 1,
+        "numerator": 1,
+        "value": 1.0
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "virtual-env-not-enough"
+      ],
+      "variant_id": "D02-v2"
+    },
+    {
+      "complete_at": {
+        "1": true,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 1,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "ensurepip-offline": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                  ],
+                  "covered_nonwhitespace_characters": 126,
+                  "lines": [
+                    27,
+                    31
+                  ],
+                  "required_nonwhitespace_characters": 126,
+                  "source_char_range": [
+                    1023,
+                    1184
+                  ],
+                  "source_id": "py-ensurepip"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                    ],
+                    "covered_nonwhitespace_characters": 126,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "3": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                    ],
+                    "covered_nonwhitespace_characters": 126,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                    ],
+                    "covered_nonwhitespace_characters": 126,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D03",
+      "first_support_rank": 1,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 1,
+        "numerator": 1,
+        "value": 1.0
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "ensurepip-offline"
+      ],
+      "variant_id": "D03-v1"
+    },
+    {
+      "complete_at": {
+        "1": false,
+        "3": true,
+        "5": true
+      },
+      "covered_claim_counts": {
+        "1": 0,
+        "3": 1,
+        "5": 1
+      },
+      "evidence_matches_all_returned": {
+        "ensurepip-offline": {
+          "alternatives": [
+            {
+              "complete": true,
+              "passages": [
+                {
+                  "complete": true,
+                  "contributing_chunk_ids": [
+                    "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                  ],
+                  "covered_nonwhitespace_characters": 126,
+                  "lines": [
+                    27,
+                    31
+                  ],
+                  "required_nonwhitespace_characters": 126,
+                  "source_char_range": [
+                    1023,
+                    1184
+                  ],
+                  "source_id": "py-ensurepip"
+                }
+              ]
+            }
+          ],
+          "complete": true
+        }
+      },
+      "evidence_matches_at": {
+        "1": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": false,
+                "passages": [
+                  {
+                    "complete": false,
+                    "contributing_chunk_ids": [],
+                    "covered_nonwhitespace_characters": 0,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": false
+          }
+        },
+        "3": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                    ],
+                    "covered_nonwhitespace_characters": 126,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        },
+        "5": {
+          "ensurepip-offline": {
+            "alternatives": [
+              {
+                "complete": true,
+                "passages": [
+                  {
+                    "complete": true,
+                    "contributing_chunk_ids": [
+                      "chunk-bd2cc9e02868a9eb57381994afcc609bad6df200571b99c0331d9d4cf0eb8deb"
+                    ],
+                    "covered_nonwhitespace_characters": 126,
+                    "lines": [
+                      27,
+                      31
+                    ],
+                    "required_nonwhitespace_characters": 126,
+                    "source_char_range": [
+                      1023,
+                      1184
+                    ],
+                    "source_id": "py-ensurepip"
+                  }
+                ]
+              }
+            ],
+            "complete": true
+          }
+        }
+      },
+      "family_id": "D03",
+      "first_support_rank": 2,
+      "kind": "answerable",
+      "recall_at": {
+        "1": {
+          "denominator": 1,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "reciprocal_rank": {
+        "denominator": 2,
+        "numerator": 1,
+        "value": 0.5
+      },
+      "required_claim_count": 1,
+      "required_claims": [
+        "ensurepip-offline"
+      ],
+      "variant_id": "D03-v2"
+    }
+  ],
+  "summary": {
+    "answerable_families": 3,
+    "answerable_variants": 6,
+    "family_macro": {
+      "complete_at": {
+        "1": {
+          "denominator": 3,
+          "numerator": 2,
+          "value": 0.6666666666666666
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "mrr": {
+        "denominator": 6,
+        "numerator": 5,
+        "value": 0.8333333333333334
+      },
+      "recall_at": {
+        "1": {
+          "denominator": 3,
+          "numerator": 2,
+          "value": 0.6666666666666666
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      }
+    },
+    "micro_counts": {
+      "1": {
+        "complete_variants": 4,
+        "covered_claims": 4,
+        "required_claims": 6,
+        "variants": 6
+      },
+      "3": {
+        "complete_variants": 6,
+        "covered_claims": 6,
+        "required_claims": 6,
+        "variants": 6
+      },
+      "5": {
+        "complete_variants": 6,
+        "covered_claims": 6,
+        "required_claims": 6,
+        "variants": 6
+      }
+    },
+    "per_family": [
+      {
+        "complete_at": {
+          "1": {
+            "denominator": 2,
+            "numerator": 1,
+            "value": 0.5
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "family_id": "D01",
+        "mrr": {
+          "denominator": 4,
+          "numerator": 3,
+          "value": 0.75
+        },
+        "recall_at": {
+          "1": {
+            "denominator": 2,
+            "numerator": 1,
+            "value": 0.5
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "required_claim_opportunities": 2,
+        "variant_count": 2,
+        "variant_ids": [
+          "D01-v1",
+          "D01-v2"
+        ]
+      },
+      {
+        "complete_at": {
+          "1": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "family_id": "D02",
+        "mrr": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "recall_at": {
+          "1": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "required_claim_opportunities": 2,
+        "variant_count": 2,
+        "variant_ids": [
+          "D02-v1",
+          "D02-v2"
+        ]
+      },
+      {
+        "complete_at": {
+          "1": {
+            "denominator": 2,
+            "numerator": 1,
+            "value": 0.5
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "family_id": "D03",
+        "mrr": {
+          "denominator": 4,
+          "numerator": 3,
+          "value": 0.75
+        },
+        "recall_at": {
+          "1": {
+            "denominator": 2,
+            "numerator": 1,
+            "value": 0.5
+          },
+          "3": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          },
+          "5": {
+            "denominator": 1,
+            "numerator": 1,
+            "value": 1.0
+          }
+        },
+        "required_claim_opportunities": 2,
+        "variant_count": 2,
+        "variant_ids": [
+          "D03-v1",
+          "D03-v2"
+        ]
+      }
+    ],
+    "required_claim_opportunities": 6,
+    "variant_macro": {
+      "complete_at": {
+        "1": {
+          "denominator": 3,
+          "numerator": 2,
+          "value": 0.6666666666666666
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      },
+      "mrr": {
+        "denominator": 6,
+        "numerator": 5,
+        "value": 0.8333333333333334
+      },
+      "recall_at": {
+        "1": {
+          "denominator": 3,
+          "numerator": 2,
+          "value": 0.6666666666666666
+        },
+        "3": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        },
+        "5": {
+          "denominator": 1,
+          "numerator": 1,
+          "value": 1.0
+        }
+      }
+    }
+  }
+}

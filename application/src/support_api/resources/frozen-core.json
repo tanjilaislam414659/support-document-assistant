@@ -1,0 +1,14 @@
+{
+  "__init__.py": {
+    "origin": "src/support_document_assistant/__init__.py",
+    "sha256": "02e46cd38dbe8e2198aead78172b68fb4486bbe011d73f5e92d0c65b8adf352e"
+  },
+  "assets.py": {
+    "origin": "src/support_document_assistant/assets.py",
+    "sha256": "837165784c9e85ddfb2fcc4d54f3b27e635f88cb03ccd12703061e3f0038105a"
+  },
+  "retrieval.py": {
+    "origin": "src/support_document_assistant/retrieval.py",
+    "sha256": "62a2847c10911833f28603c6875021456a34ae759c5f963def35a1fb4c497a76"
+  }
+}

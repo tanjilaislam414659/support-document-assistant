@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "parser_version": "conservative-rst-v1",
+  "target_characters": 2000,
+  "max_atomic_characters": 20000,
+  "overlap_characters": 0,
+  "max_corpus_bytes": 5242880,
+  "max_asset_bytes": 1048576,
+  "max_chunks": 200,
+  "unsupported_directives": [
+    "include",
+    "literalinclude",
+    "raw",
+    "image",
+    "figure"
+  ],
+  "line_numbering": "1-based inclusive",
+  "character_offsets": "0-based Unicode code points, end exclusive",
+  "policy_decision": "Fixed before first ingestion execution; based on document structure and CPU scope, not question performance."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "issues": [
+    {
+      "issue_id": "stale-distutils",
+      "source_id": "py-installing",
+      "lines": [
+        58,
+        64
+      ],
+      "eligibility": "ineligible_for_python_3_13_answer_support",
+      "reason": "Claims distutils remains in the standard library; removed in Python 3.12.",
+      "audit_asset_id": "audit-python312",
+      "audit_lines": [
+        1368,
+        1375
+      ],
+      "audit_role": "audit_only_not_retrieval_corpus",
+      "review_origin": "AI-assisted verification requested by user",
+      "human_status": "pending",
+      "human_reviewer": null,
+      "human_reviewed_on": null
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Immutable source copies retain exact bytes, including upstream trailing blank lines.
+src/support_api/resources/corpus/data/raw/** -text
+src/support_api/resources/corpus/data/notices/** -text whitespace=-blank-at-eof
+# Verification logs retain tool output without whitespace rewriting.
+reports/milestone7/clean-rehearsal/*.log -text -whitespace

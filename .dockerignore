@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!application/
+!application/pyproject.toml
+!application/LICENSE
+!application/requirements-runtime.txt
+!application/src/
+!application/src/support_api/
+!application/src/support_api/**
+application/src/support_api/qwen.py
+application/src/support_api/native.py
+**/__pycache__
+**/*.pyc
+**/*.egg-info

@@ -1,0 +1,89 @@
+{
+  "build_id": "27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90",
+  "bundle_version": 2,
+  "chunk_count": 40,
+  "excluded_audit_file": "Doc/whatsnew/3.12.rst (audit only, not serving content)",
+  "files": {
+    "config/chunking.json": {
+      "bytes": 593,
+      "original_path": "config/chunking.json",
+      "sha256": "ab67f359cafa310bed1080d84914f1f58d1a392e1a4f44d7a142827de7b9acd7"
+    },
+    "config/retrieval.json": {
+      "bytes": 1406,
+      "original_path": "config/retrieval.json",
+      "sha256": "1adf214bea9290dd789e030fa62d381683d55c3e7dd58f42cd8f9c449a19ed2d"
+    },
+    "config/source-exclusions.json": {
+      "bytes": 659,
+      "original_path": "config/source-exclusions.json",
+      "sha256": "d98f9d86bb62c8b1136575d4979648f7a39d0ba73f5ce6fcbe3171349cb2f0bc"
+    },
+    "config/sources.json": {
+      "bytes": 6089,
+      "original_path": "config/sources.json",
+      "sha256": "78556fa80766a5ffe9bf465f1999dd4e2fa7aa72c1832fb2e41c097fc1170c9c"
+    },
+    "data/assets.json": {
+      "bytes": 6338,
+      "original_path": "data/assets.json",
+      "sha256": "ecd641037e1a7ebccef03029769209d40f3789a1eb1105a13726f5a743d36dd9"
+    },
+    "data/notices/LICENSE": {
+      "bytes": 13809,
+      "original_path": "data/notices/LICENSE",
+      "sha256": "78b12c3a81360b357002334f0e70ea0e92eebf7a9b358805c03c48484945f3bb"
+    },
+    "data/notices/copyright.rst": {
+      "bytes": 451,
+      "original_path": "data/notices/copyright.rst",
+      "sha256": "2f455e3bd119869bf01369ab852d87d11c9e67e5351a7ebc64ab2c0af344aff6"
+    },
+    "data/notices/license.rst": {
+      "bytes": 55514,
+      "original_path": "data/notices/license.rst",
+      "sha256": "fde6c4707ae1b5a637285ca44162602bd94fa388a6f6157f1e4aceac113b8bde"
+    },
+    "data/raw/py-ensurepip.rst": {
+      "bytes": 5074,
+      "original_path": "data/raw/py-ensurepip.rst",
+      "sha256": "ca7151b19ab7b8d8deae66bc5deb3c67fc78973a78bdc89d865148ee4f58dd1d"
+    },
+    "data/raw/py-installing.rst": {
+      "bytes": 9414,
+      "original_path": "data/raw/py-installing.rst",
+      "sha256": "3c1dfb2b8168f126bf68f5b3cad7c30202da0f36c3199f0cda4f5907209e3006"
+    },
+    "data/raw/py-tutorial-venv.rst": {
+      "bytes": 7416,
+      "original_path": "data/raw/py-tutorial-venv.rst",
+      "sha256": "f9dac36833979e1e2885ea9bdb1975548b6ff6fca7f57bb3ba6a77810c93d7ac"
+    },
+    "data/raw/py-venv.rst": {
+      "bytes": 32020,
+      "original_path": "data/raw/py-venv.rst",
+      "sha256": "27ed824c244170010a50b9b2c4d1358b2e75d7385f403748bb132a5bcd3b6f1c"
+    },
+    "serving/chunks.jsonl": {
+      "bytes": 139460,
+      "original_path": "data/processed/27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90/chunks.jsonl",
+      "sha256": "42ca7a51b9d0a97d9185a78d0b2e51a4d153dae9ca9dc3970fda1d447d76d457"
+    },
+    "serving/exclusions.json": {
+      "bytes": 1334,
+      "original_path": "data/processed/27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90/exclusions.json",
+      "sha256": "e0f3300851080a972a360298eb87bbd4bc63a669ec1ced9bd14d7f2f1a8351c1"
+    },
+    "serving/manifest.json": {
+      "bytes": 1636,
+      "original_path": "data/processed/27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90/manifest.json",
+      "sha256": "6767234ef738496e7cdc0116c80f8a51ed374e08a62d5198de1ba4f6be984817"
+    },
+    "serving/report.json": {
+      "bytes": 1672,
+      "original_path": "data/processed/27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90/report.json",
+      "sha256": "098a72bb7fe5681ae29687b7f824046efa16999995364a35e74d07add32a03e4"
+    }
+  },
+  "source_count": 4
+}

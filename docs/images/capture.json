@@ -1,0 +1,37 @@
+{
+  "kind": "Actual screenshots of an explicitly labelled synthetic demonstration",
+  "browser": "157.0.8103.78",
+  "viewports": {
+    "desktop": [
+      1440,
+      1050
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "model_output": false,
+  "real_inference_requests": 0,
+  "benchmark_questions": 0,
+  "fixture": "synthetic-orbit-demo-v1",
+  "review_event": "automated synthetic workflow action, not research human review",
+  "files": {
+    "desktop-workflow.png": {
+      "bytes": 141354,
+      "sha256": "818eda8cca38e43e6f4c9dedd79be3860424861acd10a5d1c628a4b04dfc3b64"
+    },
+    "evaluation-limitations.png": {
+      "bytes": 112153,
+      "sha256": "d0eafcaa1ae44a9196dfaf7e0db59aa508a6f142a5c114433146b7c4e71b9d2c"
+    },
+    "mobile-workflow.png": {
+      "bytes": 191837,
+      "sha256": "275eb4bd20ffe9af7b130a8e77a4714dff22d1bd16829c1e41fb45b4eb8f3703"
+    },
+    "reviewed-revision.png": {
+      "bytes": 129155,
+      "sha256": "793fc0cc5a9007d8f0ec5660011bbf20ba1b58298c43e99dac0223d99c10f7b4"
+    }
+  }
+}

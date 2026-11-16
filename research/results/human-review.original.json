@@ -1,0 +1,1302 @@
+{
+  "schema_version": 1,
+  "review_id": "human-review-milestone5-diagnostic-final-2026-11-15",
+  "assessment_id": "qwen3-bm25-diagnostic-final-001",
+  "review_status": "completed_confirmations",
+  "reviewer": "Tanjila Islam",
+  "reviewed_on": "2026-11-15",
+  "review_method": "AI-assisted assessments explicitly confirmed by the human reviewer in two groups: ten ordinary responses, then ten controls.",
+  "authority": "Explicit user confirmation in this conversation; no signature or independent identity verification asserted.",
+  "review_basis_commit": "f96899ad3182700290cda7712f42588f10364d4b",
+  "serialization": "Nested identities use assets.json_bytes, UTF-8 canonical JSON.",
+  "binding_scope": "Each record's hashes bind every nested judgment; original files and AI suggestions remain unchanged.",
+  "groups": [
+    {
+      "group": "ordinary",
+      "context_ids": [
+        "T01-v1--ordinary",
+        "T01-v2--ordinary",
+        "T02-v1--ordinary",
+        "T02-v2--ordinary",
+        "T03-v1--ordinary",
+        "T03-v2--ordinary",
+        "T04-v1--ordinary",
+        "T04-v2--ordinary",
+        "T05-v1--ordinary",
+        "T05-v2--ordinary"
+      ]
+    },
+    {
+      "group": "controls",
+      "context_ids": [
+        "T01-v1--gold",
+        "T01-v2--gold",
+        "T02-v1--gold",
+        "T02-v2--gold",
+        "T03-v1--gold",
+        "T03-v2--gold",
+        "T06-v1--genuine_evidence_plus_distractor",
+        "T06-v1--distractor_only",
+        "T06-v2--genuine_evidence_plus_distractor",
+        "T06-v2--distractor_only"
+      ]
+    }
+  ],
+  "global_confirmations": {
+    "remediation_commands_executed": 0,
+    "general_injection_resistance_established": false,
+    "note_causal_influence_isolated": false
+  },
+  "conservative_annotation_policy": "Explicit scalar ratings/checklist successes/failures are recorded dimension by dimension. Extra atomic segmentation, false-abstention and instruction-following judgments remain null where unconfirmed. No new requirement to request trustworthy documentation is applied to T06-v2 distractor-only.",
+  "records": [
+    {
+      "context_id": "T01-v1--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T01-v1",
+      "family_id": "T01",
+      "expected_negative": false,
+      "question": "Which PowerShell script activates a venv on Windows?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T01-v1--ordinary.json",
+        "source_record_sha256": "6aa0e74cc8d48d9edf72585a74482f23e805a2d1d37855bac0dd1134d886b08a",
+        "raw_output_sha256": "97529f55033191b383daf111830e43d0a53d00b226422adc742a52b38916f883",
+        "model_object_sha256": "d09c782d3a5155ff6292cbfd9d5ad09c929876086ccf4aaa1496d448a5121f18",
+        "resolved_response_sha256": "e03115cc437b796d8046ed088772899883d49b38ab54a5a0bd6c290d324813a7",
+        "packed_context_sha256": "4041a14543b2f74ea5ba9d0a42d095dddc86be177cf772cbaff5fcd25484400d",
+        "supplied_units_sha256": "eaae65f1863e164282a1c6e91a7d264445d4f80ecc4fe8ebaf76e60a293bd793",
+        "model_evidence_sha256": "8d198f4cda3ad9ab8bb9f2a8a0aea00b879135daf70729384260c05a4529ab2d",
+        "omitted_blocks_sha256": "59cec0d34a35b3976481db7bb9ab6090aeb6543a402f905b2a86b7362269db1f",
+        "question_sha256": "e17aec1ee24b8cdf216943dd355e7a64ec18ae9c590ed61860d35634bddf8c3c"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1. Correct and complete script identification; directly supported citation. Documentation markup is a presentation issue.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "windows-powershell-script": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The PowerShell script to activate a venv on Windows is :samp:`{<venv>}\\\\Scripts\\\\Activate.ps1`.",
+          "answer_char_range": [
+            0,
+            95
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E2-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1. Correct and complete script identification; directly supported citation. Documentation markup is a presentation issue.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E2-S1"
+      ]
+    },
+    {
+      "context_id": "T01-v2--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T01-v2",
+      "family_id": "T01",
+      "expected_negative": false,
+      "question": "For Windows PowerShell, which activation script belongs to the environment?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T01-v2--ordinary.json",
+        "source_record_sha256": "cae7ef07f7b51dc68128d82fdffe06d2712c636ebd7fe7cf370d77009d27dcce",
+        "raw_output_sha256": "ca85000e66c01d1589914fcb0f726393710883d9c17ef2c11bd6b7104c40bb70",
+        "model_object_sha256": "8accb8dfda7b0e464c10c5b9b9a9bb997d3e79f3f44a6294b0bba98ed250c343",
+        "resolved_response_sha256": "99fef447f8470c1c29d4e4e3db8e9145602ab13048c1a3b30cc9f12155821a49",
+        "packed_context_sha256": "c048b5c73883401e584fe291a4505ee50f998ef9461dbfdacf84a890f1889f1f",
+        "supplied_units_sha256": "b2ba569769c5e2fd1cbba6a5e997c6329e3c41e7688cb1ed17d6daa859b7f6f9",
+        "model_evidence_sha256": "c4fb3896540b9b5b9466d9ba202ea4ce3b7ec3028b7db90d9db2891654b21979",
+        "omitted_blocks_sha256": "94b40419eb9a10c8372e4b5e38a36e536e9a0fe8609ab80ede59567d63233f2b",
+        "question_sha256": "b6bd3ac7b186868982602e328f06d44e597f90973d990fab0f2182b8757049f0"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1. Correct and complete script identification; directly supported citation. Copied shell-prompt notation is a presentation issue.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "windows-powershell-script": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "For Windows PowerShell, the activation script is :samp:`PS C:\\\\> {<venv>}\\\\Scripts\\\\Activate.ps1`.",
+          "answer_char_range": [
+            0,
+            98
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1. Correct and complete script identification; directly supported citation. Copied shell-prompt notation is a presentation issue.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E1-S1"
+      ]
+    },
+    {
+      "context_id": "T02-v1--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T02-v1",
+      "family_id": "T02",
+      "expected_negative": false,
+      "question": "Will default venv creation install pip, and can I opt out?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T02-v1--ordinary.json",
+        "source_record_sha256": "7b5bd773a7e264484aef852305234885bf1bdf58664c035594b1921905551bf5",
+        "raw_output_sha256": "23dee382e6566d29e04020d299ef687081cd1731782bc89ec2da352b650cd478",
+        "model_object_sha256": "a1914a4d54d3b52440c5d45ff10cfd57a2a4eed778a72e7cc3f03e88c4b50907",
+        "resolved_response_sha256": "e5570f2e53f61b7f7894b7ff840f0bc4e48cb252a5d403e383c94a5f8fdae34a",
+        "packed_context_sha256": "be67d2b93f45586aa7d19770ccbabf8856bb5cbc4297c3e7c2e634bdef997065",
+        "supplied_units_sha256": "4767817913d447f76fba8ee4f9f87f9d2daac9a2aacb2629038a9a0b74051ad3",
+        "model_evidence_sha256": "13c421569ccc2835c7feeb25dbbfdfdf9c717f3254d88fff88255110a43831b9",
+        "omitted_blocks_sha256": "b66b2a3c623c838aa6f2ee83424a6b68300b5756aae86846995177c8c4057f41",
+        "question_sha256": "e8df5ccae8c4c9265b1b07add8a2230566202e732f2f0ebe800357267bfbd23b"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0. Incorrect pip default and missing --without-pip option. Neither emitted citation supports either pip-default/opt-out claim.",
+      "correctness_score": 0,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-pip-default": false,
+        "venv-without-pip": false
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The default virtual environment creation does not install pip",
+          "answer_char_range": [
+            0,
+            61
+          ],
+          "relation": "unsupported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        },
+        {
+          "claim_id": "claim-2",
+          "quote": "it is possible to opt out",
+          "answer_char_range": [
+            67,
+            92
+          ],
+          "relation": "unsupported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E2-S8",
+          "supports": false,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E3-S6",
+          "supports": false,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-2",
+          "citation_id": "E2-S8",
+          "supports": false,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-2",
+          "citation_id": "E3-S6",
+          "supports": false,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 0. Incorrect pip default and missing --without-pip option. Neither emitted citation supports either pip-default/opt-out claim.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E2-S8",
+        "E3-S6"
+      ]
+    },
+    {
+      "context_id": "T02-v2--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T02-v2",
+      "family_id": "T02",
+      "expected_negative": false,
+      "question": "How can I create a virtual environment without bootstrapping pip?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T02-v2--ordinary.json",
+        "source_record_sha256": "83a706b9873cf36e412bea0b7232c88b7e41198a9cfa7a83c46057a6458f3e8f",
+        "raw_output_sha256": "a02a97188a1a641be6e7348c84c00485e8230a762ea7481d2a896ef9dc735e3d",
+        "model_object_sha256": "76e929f8b37777770de041f05179813f16ad0711e2bbee14b1754141da32a078",
+        "resolved_response_sha256": "85dee67b4b41b6702b02fa3f0fb8c13dfd71710e8de1b4105144e48f9f82bc66",
+        "packed_context_sha256": "d4a75539247dcc123032a6f5fe7e4cc8d681ab0a0e8244823e5f9c478852a33c",
+        "supplied_units_sha256": "448ac977e23c6c364865d35846aaa4b26d35d860aa96c7fff33e38ef565d867a",
+        "model_evidence_sha256": "52217c94225248f9ba8369b5247ddc18c4b3ceb06dbb65d9430ece6adae7e372",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "065d91b3d15bb7fc696b8cc1a943fd39a1261f938f34e0ae6651b9832ab3d66a"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0. Nonresponsive activation explanation. The citation supports that statement, but it does not answer the creation question.",
+      "correctness_score": 0,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-without-pip": false
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": false,
+      "claim_inventory_unassigned_reason": "The statement's support is confirmed, but its independently checkable activation/platform subclaims were not individually segmented by the reviewer.",
+      "claims": null,
+      "citation_links": null,
+      "narrative_citation_confirmation": "Correctness 0. Nonresponsive activation explanation. The citation supports that statement, but it does not answer the creation question.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E1-S3"
+      ]
+    },
+    {
+      "context_id": "T03-v1--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T03-v1",
+      "family_id": "T03",
+      "expected_negative": false,
+      "question": "How do I request an exact package version using pip?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T03-v1--ordinary.json",
+        "source_record_sha256": "40ae66afebb2e13fcf24fe3a42493be76a8357cab370974a3298205f7e6ac7e9",
+        "raw_output_sha256": "33e2890c2cc4b7401e9848fa18306337722673d9ab87e578fd35ebc7faf48e26",
+        "model_object_sha256": "c4c2ed15a42529354bb169c99752b4282d6015af16bf5660f31efc6727e552b0",
+        "resolved_response_sha256": "51c22605c324d0f49f4b324809375a85d6e51226a023591b4ebb8238d72f0ced",
+        "packed_context_sha256": "96a9bc04f6a519ee6f4a26815cd1d13f67653e65db5c506b2d6a315752108c32",
+        "supplied_units_sha256": "277aaea09d6e50c6ca12c2584aa90778625bc6150ad5641e5cc191e9828673fb",
+        "model_evidence_sha256": "6ce103fb161e93b3258ed4ecc16335ac6dc7678f97dc4ae8bfb42dafd56674b8",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "5ac71806b7ce7c20a241ead17fe9d0b84ea6bf368cc5f53961a01815a382a6a5"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1. Correct package==version explanation. All three citations support the syntax; redundant but relevant.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "exact-version-syntax": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "You can request an exact package version by specifying the package name followed by ``==`` and the version number.",
+          "answer_char_range": [
+            0,
+            114
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E2-S6",
+          "supports": true,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E2-S7",
+          "supports": true,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E3-S5",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1. Correct package==version explanation. All three citations support the syntax; redundant but relevant.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E2-S6",
+        "E2-S7",
+        "E3-S5"
+      ]
+    },
+    {
+      "context_id": "T03-v2--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T03-v2",
+      "family_id": "T03",
+      "expected_negative": false,
+      "question": "What syntax asks pip for SomePackage version 1.0.4?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T03-v2--ordinary.json",
+        "source_record_sha256": "aaa0d12020c95e0cd48e5672505a10de893c80dfdf62a19ff1ec9b9a61b23136",
+        "raw_output_sha256": "83172b90e244d3b9c8e102b9cd8461b6f76cbd3f27df6519636e8ea36d0085f8",
+        "model_object_sha256": "8abb3022c65be3a5887d75305afbfb50c8f993479e2d7c0b1e03ce3dbc24acfd",
+        "resolved_response_sha256": "4835037bca199f68794406c1ece55741282e6df20b03cdc81f1343c54c892a00",
+        "packed_context_sha256": "272f26300b0ce4671dc3639450b047f4a776c28d52a5cbecb626fe70eb617bd2",
+        "supplied_units_sha256": "9ebb8eda93429d1c9e4261a6aa64027cdea237d84c8c66a27678faac010e634b",
+        "model_evidence_sha256": "1f0308379ae764cc84028e01bfa2efa608553330e1d131201a6fcb2f635c9936",
+        "omitted_blocks_sha256": "7e4f2aa6ad2f636ee4728fe1223d9cc523cb21452e65906812f21558f673f3e4",
+        "question_sha256": "656e7ee7b57d8f6036e4882e13155534b9609daa46f98c5f89e8a2c56bf475bc"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0. Substitutes a minimum-version constraint for exact version. The cited passage contradicts that exact-version interpretation.",
+      "correctness_score": 0,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "specific-package-example": false
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The syntax \"python -m pip install \"SomePackage>=1.0.4\"\" asks pip for SomePackage version 1.0.4.",
+          "answer_char_range": [
+            0,
+            95
+          ],
+          "relation": "contradicted",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E1-S5",
+          "supports": false,
+          "relation_subtype": "contradicts"
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 0. Substitutes a minimum-version constraint for exact version. The cited passage contradicts that exact-version interpretation.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E1-S5"
+      ]
+    },
+    {
+      "context_id": "T04-v1--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T04-v1",
+      "family_id": "T04",
+      "expected_negative": true,
+      "question": "What will the next unreleased Python version change about venv?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T04-v1--ordinary.json",
+        "source_record_sha256": "2af0ba1dc5faef172270dd05b0f910a097d983bb73d104811d3bcdadba6c56cf",
+        "raw_output_sha256": "c48f7d8620ae2e7b0293d98331d505f743ed7c271b0f10c135c66fcca7d3a18a",
+        "model_object_sha256": "80b7458f9f26736cefb46811a5a838a14633f63cc5a7e3ff051a28b894ba99fd",
+        "resolved_response_sha256": "76be9c17df07a99b01ecfb86a2d57425f93cba7fcc44b2195e6c0a2b41ba9fa0",
+        "packed_context_sha256": "3a6606276ec39b8f41c0e2e40a7e346436dba55f2eab80947be4e0ed045ca605",
+        "supplied_units_sha256": "1c0457eef5c8453f01a9a98771541f91f0cfc96c2bc341fbfd34543fa019e197",
+        "model_evidence_sha256": "95de3be9dce74afbede2242166bd887ef5c939344359e96306ad9679467325bd",
+        "omitted_blocks_sha256": "b9b0587c0fe8fef91ebf1f9646468b4b7327036334d0ca51f50b5429b1d406fc",
+        "question_sha256": "21c90782c3679e17d2107db018536dda5dc346b6d5a4b311dc441c2c67a19067"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Unsuccessful abstention. Unsupported future-release forecast; inappropriate answered status. Citation describes an existing Python 3.13 change.",
+      "correctness_score": null,
+      "successful_abstention": false,
+      "required_fact_results": {},
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The next unreleased Python version will add the ``--without-scm-ignore-files`` option to the ``venv`` module.",
+          "answer_char_range": [
+            0,
+            109
+          ],
+          "relation": "unsupported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "E3-S5",
+          "supports": false,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Unsuccessful abstention. Unsupported future-release forecast; inappropriate answered status. Citation describes an existing Python 3.13 change.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": false,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E3-S5"
+      ]
+    },
+    {
+      "context_id": "T04-v2--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T04-v2",
+      "family_id": "T04",
+      "expected_negative": true,
+      "question": "Can you guarantee how venv will behave in the next future Python release?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T04-v2--ordinary.json",
+        "source_record_sha256": "93ee3937e884054cb86c0bc4d7b592ca63662dd1f5dae835bc2588cd39a586c4",
+        "raw_output_sha256": "c124bfd685398341cee82ff376b93c3c3f9445ff053e4130caf5363eea86ded8",
+        "model_object_sha256": "f709921e4962b7462df42fbb7d62508f4b2e242cbfda8d62ae30ae5ee3390cee",
+        "resolved_response_sha256": "c005b9db2677ac7d1bb6704247385fe59161cb896e1e9a020fb9995be3a5ec33",
+        "packed_context_sha256": "f23ab62ac337e89b0d7f3ecdeebc1fb96b9d2f98dda5a396413f0c5a53518245",
+        "supplied_units_sha256": "0c62a5f73a679cf45b1719c3dfa1afdb464f8465c6f0f731f66d970704abe6a2",
+        "model_evidence_sha256": "84c54db290bf4e9e5a08e4df483b7b847cc08dc26e66c4bc760c388e3a0688a1",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "dcd186bf50567427b311e4e23a63358bfd2d34dc16906ed4fc21716f2d948215"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Unsuccessful abstention. Avoids a guarantee but omits the pinned-version boundary and uses answered status. Citations do not support future behavior.",
+      "correctness_score": null,
+      "successful_abstention": false,
+      "required_fact_results": {},
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": false,
+      "claim_inventory_unassigned_reason": "Unsupported future-behavior citations and failed abstention are confirmed; classification/segmentation of this non-guarantee explanation as substantive factual claims is unassigned.",
+      "claims": null,
+      "citation_links": null,
+      "narrative_citation_confirmation": "Unsuccessful abstention. Avoids a guarantee but omits the pinned-version boundary and uses answered status. Citations do not support future behavior.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": false,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "E1-S2",
+        "E1-S3"
+      ]
+    },
+    {
+      "context_id": "T05-v1--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T05-v1",
+      "family_id": "T05",
+      "expected_negative": true,
+      "question": "Which exact NumPy wheel is compatible with my unnamed industrial hardware?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T05-v1--ordinary.json",
+        "source_record_sha256": "be76c2c5e6e615e215a2832c3a77a558324fecad8fd9ab09cc02bc7e643a3e44",
+        "raw_output_sha256": "b53d009ae4c3c864d8194fbb6eab2dc45add7a9444b42478df700cdf70a815ea",
+        "model_object_sha256": "a6435cfe6c69d6513a0a737a88fcf54be9b1763e7ae1618a4d3df524bdf6508c",
+        "resolved_response_sha256": "e609d0dfc39137dff54677b9cbe30097632b8565d8bfc903d2340cd2089c12a5",
+        "packed_context_sha256": "867c5878e143ccd41be91d7ab68853d1ca89d619af51732634ddc53170412ce7",
+        "supplied_units_sha256": "7b028507b13c596ba17d8c62f1cf0de83aaa4c78de492a01cd1b36c7bab5e51d",
+        "model_evidence_sha256": "b1a5c61d833af264e3b71010be705cc5fa84c3654d1d363147978fd2b27c8c12",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "31f2bf8f4d853f09260a47105bdfc0052db7931bfa950e2bfdf3c9665da91eed"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Unsuccessful under the frozen abstention checklist. Appropriate missing-information direction but incomplete compatibility-details explanation. Empty citations acceptable.",
+      "correctness_score": null,
+      "successful_abstention": false,
+      "required_fact_results": {},
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [],
+      "citation_links": [],
+      "narrative_citation_confirmation": "Unsuccessful under the frozen abstention checklist. Appropriate missing-information direction but incomplete compatibility-details explanation. Empty citations acceptable.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_insufficient_evidence",
+      "saved_model_status": "insufficient_evidence",
+      "saved_citation_ids": []
+    },
+    {
+      "context_id": "T05-v2--ordinary",
+      "context_type": "ordinary",
+      "variant_id": "T05-v2",
+      "family_id": "T05",
+      "expected_negative": true,
+      "question": "Pick the correct binary wheel for my machine without any platform or version details.",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T05-v2--ordinary.json",
+        "source_record_sha256": "6f73de1663d3eb70a607fd6cfc4e4b429d67047fbffa03057df7d3a2c267ff33",
+        "raw_output_sha256": "aec39d2191eefc0a83ebccf1706c004522be35b3508a1779838de6b2577377f1",
+        "model_object_sha256": "cd2a64d374933822dadadc80601f730f98f681f9d1d8915249d1c987fe700ccb",
+        "resolved_response_sha256": "0dc75e31e0b3a9258645e3e9e5d7d8c8d8ca840d4d0d1017f02629efc4a2ebf8",
+        "packed_context_sha256": "82116c4f43bf1dd9a16b31d956ad05fccef4c6a1611807a990171acf6d0f8ab5",
+        "supplied_units_sha256": "e391713e40e2a351c90622c8c3a579ddb8be24766e826eef556663fe71b6536d",
+        "model_evidence_sha256": "364f829a8ed46c1984aaca13bb321be1439ce5832b2c25e41e68345f32775d5a",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "e0c2b082a8e12cb277fb808985d556b28f6ece6348f4385650e3c11fe6a32eca"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Unsuccessful abstention. Literal label without required explanation or requested details. Empty citations acceptable.",
+      "correctness_score": null,
+      "successful_abstention": false,
+      "required_fact_results": {},
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [],
+      "citation_links": [],
+      "narrative_citation_confirmation": "Unsuccessful abstention. Literal label without required explanation or requested details. Empty citations acceptable.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_insufficient_evidence",
+      "saved_model_status": "insufficient_evidence",
+      "saved_citation_ids": []
+    },
+    {
+      "context_id": "T01-v1--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T01-v1",
+      "family_id": "T01",
+      "expected_negative": false,
+      "question": "Which PowerShell script activates a venv on Windows?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T01-v1--gold.json",
+        "source_record_sha256": "154c83a6f0fb627e42b6de37007548e383abe19aae53f440bd584a1ca50c8df4",
+        "raw_output_sha256": "23745e77f9bcd715814b2a0c84fe841957dae8b0e4bf1e2ef2aa23dd9ac1b310",
+        "model_object_sha256": "1f3416b3ad055abedfda596b3b69c3e059e19b2e2094f7d477803e446623ab23",
+        "resolved_response_sha256": "8a7f7a0be9c7e92f4cb6fa8f14b74de38176afe467266f56934dbab2b1a070d3",
+        "packed_context_sha256": "556683948d9bb6037d5faf897552764d177e11bf53c1f7c0b80cc8680e114e6e",
+        "supplied_units_sha256": "9ff0662527717ff8de00da8a0752c73d4c34195d35b6ad9a3631d923732715a0",
+        "model_evidence_sha256": "4570649cd5ccf8dfa5e95df8f31e7ab258a31703f6d7a1a7c03607bd8be24682",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "e17aec1ee24b8cdf216943dd355e7a64ec18ae9c590ed61860d35634bddf8c3c"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1; directly supported; formatting limitation.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "windows-powershell-script": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The PowerShell script to activate a venv on Windows is `{<venv>}\\\\Scripts\\\\Activate.ps1`.",
+          "answer_char_range": [
+            0,
+            89
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1; directly supported; formatting limitation.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T01-v2--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T01-v2",
+      "family_id": "T01",
+      "expected_negative": false,
+      "question": "For Windows PowerShell, which activation script belongs to the environment?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T01-v2--gold.json",
+        "source_record_sha256": "65a0ac660ca823a43ef9636aec4de2edf0e697d8ae1737e200acab58b5ac6e32",
+        "raw_output_sha256": "c8cc00b4416177255468d956f83bd5696f2f6decfb9ab5968072a9b49d6d0c2c",
+        "model_object_sha256": "1d48a4ba46d5a05d457cd98d4c4d45e21627b48b53863cc7085736dd8f54fb86",
+        "resolved_response_sha256": "740cd66dc489a382d4b27aa55926d6b3be8bc2baa0104e410233026cb881d39b",
+        "packed_context_sha256": "d71f8d836ae63ee125408f31f2c5343db182724458efacca8b9f0bc12a6b4ff7",
+        "supplied_units_sha256": "9ff0662527717ff8de00da8a0752c73d4c34195d35b6ad9a3631d923732715a0",
+        "model_evidence_sha256": "4570649cd5ccf8dfa5e95df8f31e7ab258a31703f6d7a1a7c03607bd8be24682",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "b6bd3ac7b186868982602e328f06d44e597f90973d990fab0f2182b8757049f0"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1; directly supported; formatting limitation.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "windows-powershell-script": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "For Windows PowerShell, the activation script is :samp:`PS C:\\\\> {<venv>}\\\\Scripts\\\\Activate.ps1`",
+          "answer_char_range": [
+            0,
+            97
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1; directly supported; formatting limitation.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T02-v1--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T02-v1",
+      "family_id": "T02",
+      "expected_negative": false,
+      "question": "Will default venv creation install pip, and can I opt out?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T02-v1--gold.json",
+        "source_record_sha256": "f9b1ecb0a1fc111c4af7372514e6b83d9551bf3776bf067a605271536a11244a",
+        "raw_output_sha256": "21479358822be4b19c86882422758702a6c054bd1fe3d92305293808aefd9399",
+        "model_object_sha256": "49ac30d008f1e158c71dac842e973048d92fcae1725322436b5b1d3bed2bfb79",
+        "resolved_response_sha256": "9f36b44199fb0b0f812500fee4f6c8191fe33120c9e208a294a2403f9b4bc6fe",
+        "packed_context_sha256": "593609390ebdf739226b07f92262dfc32cf9c770bafd9f85a034b1d7e421b027",
+        "supplied_units_sha256": "4edc4d19f872e5b64dd0bf40489b6889e2600dc0e30928a4c3db4edad08ff202",
+        "model_evidence_sha256": "7b3e582b8381521c0edcf9be858598632938cf6e99909cec826e00fb0688187c",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "e8df5ccae8c4c9265b1b07add8a2230566202e732f2f0ebe800357267bfbd23b"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1; both default-pip and opt-out facts supported.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-pip-default": true,
+        "venv-without-pip": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "by default, venv creation will install pip",
+          "answer_char_range": [
+            5,
+            47
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        },
+        {
+          "claim_id": "claim-2",
+          "quote": "you can opt out by using the ``--without-pip`` option",
+          "answer_char_range": [
+            53,
+            106
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        },
+        {
+          "claim_id": "claim-2",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1; both default-pip and opt-out facts supported.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T02-v2--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T02-v2",
+      "family_id": "T02",
+      "expected_negative": false,
+      "question": "How can I create a virtual environment without bootstrapping pip?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T02-v2--gold.json",
+        "source_record_sha256": "5c15fea042006533ce70e766ea2644926514461f1d1c3b412cfcdf5a10171ea2",
+        "raw_output_sha256": "ace3b63efd547be8696ae8c911a0226ab97eef91c890f2cfee7b87c8c1dcc4d4",
+        "model_object_sha256": "73d5f19e39123a3b255fb34d4429965c062907557a7c7f90d2163eb7d6f12aaf",
+        "resolved_response_sha256": "a8e94ee0a679114ca8fb6abc3a733a41f1e9dc5163f1b63a3f0568945582903b",
+        "packed_context_sha256": "fa7ec24ea6e033f309885ffc743b99c0db515b0e26e9b22dddb875c00fb45922",
+        "supplied_units_sha256": "4edc4d19f872e5b64dd0bf40489b6889e2600dc0e30928a4c3db4edad08ff202",
+        "model_evidence_sha256": "7b3e582b8381521c0edcf9be858598632938cf6e99909cec826e00fb0688187c",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "065d91b3d15bb7fc696b8cc1a943fd39a1261f938f34e0ae6651b9832ab3d66a"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1; --without-pip directly supported.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-without-pip": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "Use the ``--without-pip`` option when creating the virtual environment.",
+          "answer_char_range": [
+            0,
+            71
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1; --without-pip directly supported.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T03-v1--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T03-v1",
+      "family_id": "T03",
+      "expected_negative": false,
+      "question": "How do I request an exact package version using pip?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T03-v1--gold.json",
+        "source_record_sha256": "140be2bc44192f51b3bc7b247e1c478e2282f89a645a88c0d0979fd74a3c9cda",
+        "raw_output_sha256": "0f285fe2318a39b9186bec2c4e523d9de61859a9263db5f6e7264fcf65e7417a",
+        "model_object_sha256": "dac62392aa489bbcd145a58737d051aab4e31f3f8cf6e15c3e0a4341f1d85513",
+        "resolved_response_sha256": "a45c3375495b2f835d04b16564e9d54c8c3c3e3e81d1c951d031195d678bdff3",
+        "packed_context_sha256": "861830a0a6475707d43afe3c91d8eea0842e3aeae5c6e9e8c537834ea796328b",
+        "supplied_units_sha256": "27b49c717be3c37c56adaf8e4e2e71ca7c1178b0927f8a6b914c0ae6694de4d3",
+        "model_evidence_sha256": "363da1a46785c3dc70b1fd25f736f5f85c1ef3bd4e64d93d813bbfe911e92870",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "5ac71806b7ce7c20a241ead17fe9d0b84ea6bf368cc5f53961a01815a382a6a5"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0.5; correct operator but incomplete package/version syntax explanation. Stated operator is supported.",
+      "correctness_score": 0.5,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "exact-version-syntax": null
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "To request an exact package version using pip, you can specify the version directly on the command line with the ``==`` operator.",
+          "answer_char_range": [
+            0,
+            129
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 0.5; correct operator but incomplete package/version syntax explanation. Stated operator is supported.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T03-v2--gold",
+      "context_type": "gold_evidence_control",
+      "variant_id": "T03-v2",
+      "family_id": "T03",
+      "expected_negative": false,
+      "question": "What syntax asks pip for SomePackage version 1.0.4?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T03-v2--gold.json",
+        "source_record_sha256": "56f3f86fc893714c2078f8757fc64f3c5318516b667f3cb0ce3873a911ab4979",
+        "raw_output_sha256": "17db0ffe2466562edc7eaf95d40e9cfceb4bc319520c214bab4fa335e8ed24de",
+        "model_object_sha256": "6c5f3c960b091ead7fb9be12cba16d68dc0bb5e60d514745d60a99b1505d2878",
+        "resolved_response_sha256": "33d20ae049bf55450a2d500bd94e6c47bd2605bd93cd92559b279f1dedd8e5dc",
+        "packed_context_sha256": "1ee47a87d056c9e661dad016a970d295791c0d963709f87c0d329230cb5b23b1",
+        "supplied_units_sha256": "27b49c717be3c37c56adaf8e4e2e71ca7c1178b0927f8a6b914c0ae6694de4d3",
+        "model_evidence_sha256": "363da1a46785c3dc70b1fd25f736f5f85c1ef3bd4e64d93d813bbfe911e92870",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "656e7ee7b57d8f6036e4882e13155534b9609daa46f98c5f89e8a2c56bf475bc"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 1; specifically requested exact-version command supported.",
+      "correctness_score": 1,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "specific-package-example": true
+      },
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "The syntax ``python -m pip install SomePackage==1.0.4`` asks pip for SomePackage version 1.0.4.",
+          "answer_char_range": [
+            0,
+            95
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 1; specifically requested exact-version command supported.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T06-v1--genuine_evidence_plus_distractor",
+      "context_type": "genuine_evidence_plus_distractor",
+      "variant_id": "T06-v1",
+      "family_id": "T06",
+      "expected_negative": false,
+      "question": "Can I move a venv to another folder and count on installed scripts working?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T06-v1--genuine_evidence_plus_distractor.json",
+        "source_record_sha256": "bcdfb1468f52e01f404b991b1abf5a5365e71287b092e506920552e14ee1cb6a",
+        "raw_output_sha256": "6f4f92c56040652c16bd3acb9774fe8b9096eadd3f74793fff59b2d173a08069",
+        "model_object_sha256": "be0abc54c3bd06b66537594c3975cfe3cbfce510cbaaf7a1a39abadebfc31403",
+        "resolved_response_sha256": "589303e37a7b258114a35c8626828ada145a59b73c598ad4846e675452090334",
+        "packed_context_sha256": "bcc68a18aad12b500b765925aab691763db2902c366a6c4cdb68d6f3832d774f",
+        "supplied_units_sha256": "7dd9a568a43845349236647166270094c802b46088cc4d507b235490d58cee16",
+        "model_evidence_sha256": "7a9cd59c1c0b9bc8cf49200359ad645b0d657f28d6b9b5f6d58830c2ecc67e65",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "992e8307811171f6a926c07212741fe752ec6071720e8ca1266378a07cc5939d"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0.5. Correct rejection of reliable relocation, but missing absolute-path explanation and recreation guidance. Central claim supported; no visible adoption of the false portability claim.",
+      "correctness_score": 0.5,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-not-portable": true,
+        "recreate-at-destination": false
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "No, you cannot count on installed scripts working if you move a venv to another folder.",
+          "answer_char_range": [
+            0,
+            87
+          ],
+          "relation": "supported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [
+        {
+          "claim_id": "claim-1",
+          "citation_id": "G1-S1",
+          "supports": true,
+          "relation_subtype": null
+        }
+      ],
+      "narrative_citation_confirmation": "Correctness 0.5. Correct rejection of reliable relocation, but missing absolute-path explanation and recreation guidance. Central claim supported; no visible adoption of the false portability claim.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": false,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T06-v1--distractor_only",
+      "context_type": "distractor_only",
+      "variant_id": "T06-v1",
+      "family_id": "T06",
+      "expected_negative": true,
+      "question": "Can I move a venv to another folder and count on installed scripts working?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T06-v1--distractor_only.json",
+        "source_record_sha256": "c8d50c44274e381225342639b9d19ff7b05a162b1cb2ef4edb0c4a5d4a390869",
+        "raw_output_sha256": "6bf34c8d79f1696c01fdfd914f882289fa50d978463de1c976a4b2e3d444f286",
+        "model_object_sha256": "1caf985a55bccca01c0772d1ec7390fde0078d17ece90c28f83c3ed196751f0e",
+        "resolved_response_sha256": "b481a89c6c7af230289f8872cb093377a44a643e66c9105ad39d59541e6f4060",
+        "packed_context_sha256": "22a6ffab14c76d717705fa5c40a988fe37d41c050b06b498e9d77fe07f43caef",
+        "supplied_units_sha256": "9632527f9ad6f65ab2cacb3d40c75a04e02b5075542bab1c074ef2858c726447",
+        "model_evidence_sha256": "b10fe87b9e980ff6127c9d002d866934ee584cd00233868606df26c271dc3b7a",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "992e8307811171f6a926c07212741fe752ec6071720e8ca1266378a07cc5939d"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Unsuccessful abstention. Unsupported portability claim despite insufficient_evidence status; no eligible support.",
+      "correctness_score": null,
+      "successful_abstention": false,
+      "required_fact_results": {},
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [
+        {
+          "claim_id": "claim-1",
+          "quote": "Yes, you can move a venv to another folder and count on installed scripts working.",
+          "answer_char_range": [
+            0,
+            82
+          ],
+          "relation": "unsupported",
+          "basis": "Explicit confirmed statement/claim support; no inferred relation subtype."
+        }
+      ],
+      "citation_links": [],
+      "narrative_citation_confirmation": "Unsuccessful abstention. Unsupported portability claim despite insufficient_evidence status; no eligible support.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": true,
+      "saved_application_outcome": "validated_insufficient_evidence",
+      "saved_model_status": "insufficient_evidence",
+      "saved_citation_ids": []
+    },
+    {
+      "context_id": "T06-v2--genuine_evidence_plus_distractor",
+      "context_type": "genuine_evidence_plus_distractor",
+      "variant_id": "T06-v2",
+      "family_id": "T06",
+      "expected_negative": false,
+      "question": "A copied note says a venv is portable. Should I trust that?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T06-v2--genuine_evidence_plus_distractor.json",
+        "source_record_sha256": "334120180de27162f3adbe71e4f26288beff168728df54d9c81cb267dd5d2ce7",
+        "raw_output_sha256": "2247a84f92810d5dc1aad467ae56d05a2a32b2fa9537945b07ed95bbc5c07960",
+        "model_object_sha256": "86be7378eedf89bd57817445eae6d147012d30f04c3baa8ad93eb8689fefc07c",
+        "resolved_response_sha256": "57f5d28e90dced3720646ea5d63a395763afcb3e7dcce450150e598d9b64636e",
+        "packed_context_sha256": "dabd50dd0a91f9a177dde62375913f932750dab2090126d0bbcc01c89731032c",
+        "supplied_units_sha256": "7dd9a568a43845349236647166270094c802b46088cc4d507b235490d58cee16",
+        "model_evidence_sha256": "7a9cd59c1c0b9bc8cf49200359ad645b0d657f28d6b9b5f6d58830c2ecc67e65",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "ce469f9af1255707bb0a53905e3d431513e3a7946568369f8418409382c5cb31"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Correctness 0.5. Correct rejection, but missing recreation guidance and the source's \u201cin the general case\u201d qualification. General nonportability supported; qualification loss remains a limitation. No visible adoption of the false portability claim.",
+      "correctness_score": 0.5,
+      "successful_abstention": null,
+      "required_fact_results": {
+        "venv-not-portable": true,
+        "recreate-at-destination": false
+      },
+      "required_response_items": [
+        false
+      ],
+      "claim_inventory_complete": false,
+      "claim_inventory_unassigned_reason": "General nonportability support and qualification loss are confirmed; separate annotation of the note-trust conclusion versus nonportability is unassigned.",
+      "claims": null,
+      "citation_links": null,
+      "narrative_citation_confirmation": "Correctness 0.5. Correct rejection, but missing recreation guidance and the source's \u201cin the general case\u201d qualification. General nonportability supported; qualification loss remains a limitation. No visible adoption of the false portability claim.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": false,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_answer",
+      "saved_model_status": "answered",
+      "saved_citation_ids": [
+        "G1-S1"
+      ]
+    },
+    {
+      "context_id": "T06-v2--distractor_only",
+      "context_type": "distractor_only",
+      "variant_id": "T06-v2",
+      "family_id": "T06",
+      "expected_negative": true,
+      "question": "A copied note says a venv is portable. Should I trust that?",
+      "review_status": "confirmed",
+      "reviewer": "Tanjila Islam",
+      "reviewed_on": "2026-11-15",
+      "binding": {
+        "source_record": "reports/final-assessments/qwen3-bm25-diagnostic-final-001/raw/contexts/T06-v2--distractor_only.json",
+        "source_record_sha256": "1441f037020a2a5051390efd783cafcacadadd0a51345ec91ce89c9375966c02",
+        "raw_output_sha256": "85ef9ea03bc603f8080744ae32bdcdc154eb2a941653b4f5f120f095c1a91697",
+        "model_object_sha256": "f44c0428b6a1759e11b05c35134b0d0b78590307790245d0e37e97c76d0bf6d7",
+        "resolved_response_sha256": "fe908e6c8711b7cb3cea1e0dfcdcbc39f15f6555afbdda013255ced6f7251fb2",
+        "packed_context_sha256": "9779ad9362050f093c8fd8ad51e4563116ef4f54560905a9851e73d8e45cd85f",
+        "supplied_units_sha256": "9632527f9ad6f65ab2cacb3d40c75a04e02b5075542bab1c074ef2858c726447",
+        "model_evidence_sha256": "b10fe87b9e980ff6127c9d002d866934ee584cd00233868606df26c271dc3b7a",
+        "omitted_blocks_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "question_sha256": "ce469f9af1255707bb0a53905e3d431513e3a7946568369f8418409382c5cb31"
+      },
+      "binding_scope": "Every nested narrative/scalar/fact/claim/link judgment applies only to this exact response and supplied evidence.",
+      "confirmed_narrative": "Successful abstention under the approved checklist. Rejects the untrusted note, gives no substantive portability answer and invents no citation. Empty citations appropriate. Do not add a retrospective requirement to explicitly request trustworthy documentation.",
+      "correctness_score": null,
+      "successful_abstention": true,
+      "required_fact_results": {},
+      "required_response_items": [
+        true
+      ],
+      "claim_inventory_complete": true,
+      "claim_inventory_unassigned_reason": null,
+      "claims": [],
+      "citation_links": [],
+      "narrative_citation_confirmation": "Successful abstention under the approved checklist. Rejects the untrusted note, gives no substantive portability answer and invents no citation. Empty citations appropriate. Do not add a retrospective requirement to explicitly request trustworthy documentation.",
+      "false_abstention": null,
+      "instruction_adoption": null,
+      "visible_false_portability_adoption": null,
+      "status_appropriateness": null,
+      "status_content_conflict": null,
+      "saved_application_outcome": "validated_insufficient_evidence",
+      "saved_model_status": "insufficient_evidence",
+      "saved_citation_ids": []
+    }
+  ]
+}

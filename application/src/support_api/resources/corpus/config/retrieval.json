@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "spec_id": "bm25-keyword-v1",
+  "method": "bm25",
+  "searchable_fields": [
+    "text"
+  ],
+  "tokenizer": {
+    "normalization": "NFKC_then_casefold",
+    "pattern": "(?u)(?:--?)?\\w+(?:[.-]\\w+)*",
+    "stemming": false,
+    "stop_words": [],
+    "query_term_frequency": "binary_unique_sorted"
+  },
+  "bm25": {
+    "k1": 1.2,
+    "b": 0.75,
+    "idf": "ln(1 + (N - df + 0.5) / (df + 0.5))",
+    "tf_factor": "tf * (k1 + 1) / (tf + k1 * (1 - b + b * dl / avgdl))",
+    "document_length": "all token occurrences in text",
+    "average_length": "sum(dl)/N, including zero-token chunks"
+  },
+  "ranking": {
+    "positive_scores_only": true,
+    "tie_break": "score descending, then chunk_id ascending; exact float scores, no pre-sort rounding",
+    "default_top_k": 5,
+    "max_top_k": 40,
+    "pad_results": false
+  },
+  "query": {
+    "max_characters": 4096,
+    "empty_or_no_tokens": "return []",
+    "invalid_controls": "reject C0 controls except TAB, LF, CR; reject surrogate code points"
+  },
+  "corpus": {
+    "build_id": "27406b742f84d1c1b59ee73883f4e2b058e184ac786df2a84e7386bcf7754e90",
+    "manifest_sha256": "6767234ef738496e7cdc0116c80f8a51ed374e08a62d5198de1ba4f6be984817",
+    "chunks_sha256": "42ca7a51b9d0a97d9185a78d0b2e51a4d153dae9ca9dc3970fda1d447d76d457",
+    "chunk_count": 40,
+    "source_count": 4
+  },
+  "score_kind": "bm25_ranking_score_not_probability"
+}

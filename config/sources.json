@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "verified_on": "2026-11-09",
+  "domain": "Windows Python virtual environments and basic package installation",
+  "repository": "https://github.com/python/cpython",
+  "release": "3.13.0",
+  "tag": "v3.13.0",
+  "commit": "60403a5409ff2c3f3b07dd2ca91a7a3e096839c7",
+  "license_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/LICENSE",
+  "copyright_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/copyright.rst",
+  "sources": [
+    {
+      "source_id": "py-venv",
+      "path": "Doc/library/venv.rst",
+      "title": "venv — Creation of virtual environments",
+      "product_version": "3.13.0",
+      "platform_scope": "Windows; retain cross-platform labels",
+      "format": "reStructuredText",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/venv.rst",
+      "human_readable_url": "https://docs.python.org/3.13/library/venv.html",
+      "git_blob_sha1": "e2c77963ff3040b0ab85193fa24800bb0d1b00e2",
+      "license": "PSF-2.0; documentation code also available under 0BSD",
+      "review_status": "assistant_verified; human acceptance pending",
+      "local_path": "data/raw/py-venv.rst",
+      "role": "corpus"
+    },
+    {
+      "source_id": "py-ensurepip",
+      "path": "Doc/library/ensurepip.rst",
+      "title": "ensurepip — Bootstrapping pip",
+      "product_version": "3.13.0",
+      "platform_scope": "Windows; retain cross-platform labels",
+      "format": "reStructuredText",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/ensurepip.rst",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/library/ensurepip.rst",
+      "human_readable_url": "https://docs.python.org/3.13/library/ensurepip.html",
+      "git_blob_sha1": "8dfb7ad9c95c3e26d857149df4519c8e5a464ede",
+      "license": "PSF-2.0; documentation code also available under 0BSD",
+      "review_status": "assistant_verified; human acceptance pending",
+      "local_path": "data/raw/py-ensurepip.rst",
+      "role": "corpus"
+    },
+    {
+      "source_id": "py-tutorial-venv",
+      "path": "Doc/tutorial/venv.rst",
+      "title": "Virtual Environments and Packages",
+      "product_version": "3.13.0",
+      "platform_scope": "Windows; retain cross-platform labels",
+      "format": "reStructuredText",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/tutorial/venv.rst",
+      "human_readable_url": "https://docs.python.org/3.13/tutorial/venv.html",
+      "git_blob_sha1": "91e4ce18acef1dd8c390aedd41829ded0205a21e",
+      "license": "PSF-2.0; documentation code also available under 0BSD",
+      "review_status": "assistant_verified; human acceptance pending",
+      "local_path": "data/raw/py-tutorial-venv.rst",
+      "role": "corpus"
+    },
+    {
+      "source_id": "py-installing",
+      "path": "Doc/installing/index.rst",
+      "title": "Installing Python Modules",
+      "product_version": "3.13.0",
+      "platform_scope": "Windows; retain cross-platform labels",
+      "format": "reStructuredText",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/installing/index.rst",
+      "human_readable_url": "https://docs.python.org/3.13/installing/index.html",
+      "git_blob_sha1": "a46c1caefe4d8acaa3e981f6ea1b86b3c9535422",
+      "license": "PSF-2.0; documentation code also available under 0BSD",
+      "review_status": "assistant_verified; human acceptance pending",
+      "local_path": "data/raw/py-installing.rst",
+      "role": "corpus"
+    }
+  ],
+  "supporting_assets": [
+    {
+      "asset_id": "license",
+      "path": "LICENSE",
+      "local_path": "data/notices/LICENSE",
+      "role": "notice",
+      "git_blob_sha1": "14603b95c2e23b5a4cd6ff93f50348d1817f7638",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/LICENSE",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/LICENSE"
+    },
+    {
+      "asset_id": "copyright",
+      "path": "Doc/copyright.rst",
+      "local_path": "data/notices/copyright.rst",
+      "role": "notice",
+      "git_blob_sha1": "8629ed1fc38009f289978f7d61f1def892075e15",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/copyright.rst",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/copyright.rst"
+    },
+    {
+      "asset_id": "license-details",
+      "path": "Doc/license.rst",
+      "local_path": "data/notices/license.rst",
+      "role": "notice",
+      "git_blob_sha1": "674ac5f56e6f971059caab58999839aa5117f8fe",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/license.rst",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/license.rst"
+    },
+    {
+      "asset_id": "audit-python312",
+      "path": "Doc/whatsnew/3.12.rst",
+      "local_path": "data/audit/whatsnew-3.12.rst",
+      "role": "audit_only",
+      "git_blob_sha1": "0799c354dde42e387e66afa436f0e7bb0fdd65d4",
+      "download_url": "https://raw.githubusercontent.com/python/cpython/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/whatsnew/3.12.rst",
+      "immutable_url": "https://github.com/python/cpython/blob/60403a5409ff2c3f3b07dd2ca91a7a3e096839c7/Doc/whatsnew/3.12.rst"
+    }
+  ]
+}

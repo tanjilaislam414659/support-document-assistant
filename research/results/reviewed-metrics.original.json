@@ -1,0 +1,2786 @@
+{
+  "schema_version": 1,
+  "assessment_id": "qwen3-bm25-diagnostic-final-001",
+  "review_sha256": "8f1b5d4c958c5a6f2f57658e2ecdf9353fc0d070fa19e1689c3b0973758f826a",
+  "rules": "Unchanged frozen formulas; variants averaged within family, then equal family weights. Independent dimensional availability, no new pass threshold.",
+  "cohorts": {
+    "ordinary": {
+      "planned_contexts": 10,
+      "correctness": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 6,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 1,
+            "value": 3.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 3,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 2,
+            "value": 1.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "successful_abstention": {
+        "variant": {
+          "planned_variants": 4,
+          "assigned_variants": 4,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "assigned_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T04",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T05",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "assigned_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "undefined_reason": null
+        }
+      },
+      "successful_abstention_counts": {
+        "successes": 0,
+        "negatives": 4
+      },
+      "false_abstention": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        }
+      },
+      "required_fact_coverage": {
+        "state": "defined",
+        "numerator": 3,
+        "denominator": 7,
+        "assigned_items": 7,
+        "primary": {
+          "numerator": 3,
+          "denominator": 7,
+          "value": 0.42857142857142855
+        }
+      },
+      "required_fact_family": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 6,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 1,
+            "value": 3.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 3,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 2,
+            "value": 1.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "required_response_checklist_coverage": {
+        "state": "defined",
+        "numerator": 3,
+        "denominator": 10,
+        "assigned_items": 10,
+        "primary": {
+          "numerator": 3,
+          "denominator": 10,
+          "value": 0.3
+        }
+      },
+      "required_response_family": {
+        "variant": {
+          "planned_variants": 10,
+          "assigned_variants": 10,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 1,
+            "value": 3.0
+          },
+          "primary": {
+            "numerator": 3,
+            "denominator": 10,
+            "value": 0.3
+          },
+          "assigned_only": {
+            "numerator": 3,
+            "denominator": 10,
+            "value": 0.3
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T04",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T05",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 5,
+          "assigned_variants": 5,
+          "score_sum": {
+            "numerator": 3,
+            "denominator": 2,
+            "value": 1.5
+          },
+          "primary": {
+            "numerator": 3,
+            "denominator": 10,
+            "value": 0.3
+          },
+          "assigned_only": {
+            "numerator": 3,
+            "denominator": 10,
+            "value": 0.3
+          },
+          "undefined_reason": null
+        }
+      },
+      "citation_metrics": {
+        "citation_precision": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 5,
+            "denominator": 11,
+            "ratio": {
+              "numerator": 5,
+              "denominator": 11,
+              "value": 0.45454545454545453
+            }
+          },
+          "annotation_complete_contexts": 8,
+          "planned_contexts": 10,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T01-v1--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T01-v2--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 4,
+              "assigned_items": 4,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T02-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "The statement's support is confirmed, but its independently checkable activation/platform subclaims were not individually segmented by the reviewer."
+            },
+            "T03-v1--ordinary": {
+              "state": "defined",
+              "numerator": 3,
+              "denominator": 3,
+              "assigned_items": 3,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v2--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T04-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T04-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "Unsupported future-behavior citations and failed abstention are confirmed; classification/segmentation of this non-guarantee explanation as substantive factual claims is unassigned."
+            },
+            "T05-v1--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            },
+            "T05-v2--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 2,
+                "value": 0.5
+              }
+            },
+            {
+              "family_id": "T04",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T05",
+              "planned_variants": 2,
+              "defined_variants": 0,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 2,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 3,
+            "denominator": 4,
+            "value": 0.75
+          },
+          "defined_families": 2,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        },
+        "citation_completeness": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 3,
+            "denominator": 7,
+            "ratio": {
+              "numerator": 3,
+              "denominator": 7,
+              "value": 0.42857142857142855
+            }
+          },
+          "annotation_complete_contexts": 8,
+          "planned_contexts": 10,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T01-v1--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T01-v2--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 2,
+              "assigned_items": 2,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T02-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "The statement's support is confirmed, but its independently checkable activation/platform subclaims were not individually segmented by the reviewer."
+            },
+            "T03-v1--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v2--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T04-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T04-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "Unsupported future-behavior citations and failed abstention are confirmed; classification/segmentation of this non-guarantee explanation as substantive factual claims is unassigned."
+            },
+            "T05-v1--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            },
+            "T05-v2--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 2,
+                "value": 0.5
+              }
+            },
+            {
+              "family_id": "T04",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T05",
+              "planned_variants": 2,
+              "defined_variants": 0,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 2,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 3,
+            "denominator": 4,
+            "value": 0.75
+          },
+          "defined_families": 2,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        },
+        "unsupported_claim_rate": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 4,
+            "denominator": 7,
+            "ratio": {
+              "numerator": 4,
+              "denominator": 7,
+              "value": 0.5714285714285714
+            }
+          },
+          "annotation_complete_contexts": 8,
+          "planned_contexts": 10,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T01-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T01-v2--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T02-v1--ordinary": {
+              "state": "defined",
+              "numerator": 2,
+              "denominator": 2,
+              "assigned_items": 2,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "The statement's support is confirmed, but its independently checkable activation/platform subclaims were not individually segmented by the reviewer."
+            },
+            "T03-v1--ordinary": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T03-v2--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T04-v1--ordinary": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T04-v2--ordinary": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "Unsupported future-behavior citations and failed abstention are confirmed; classification/segmentation of this non-guarantee explanation as substantive factual claims is unassigned."
+            },
+            "T05-v1--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            },
+            "T05-v2--ordinary": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 2,
+                "value": 0.5
+              }
+            },
+            {
+              "family_id": "T04",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            },
+            {
+              "family_id": "T05",
+              "planned_variants": 2,
+              "defined_variants": 0,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 2,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 1,
+            "denominator": 4,
+            "value": 0.25
+          },
+          "defined_families": 2,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        }
+      }
+    },
+    "gold_evidence_control": {
+      "planned_contexts": 6,
+      "correctness": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 6,
+          "score_sum": {
+            "numerator": 11,
+            "denominator": 2,
+            "value": 5.5
+          },
+          "primary": {
+            "numerator": 11,
+            "denominator": 12,
+            "value": 0.9166666666666666
+          },
+          "assigned_only": {
+            "numerator": 11,
+            "denominator": 12,
+            "value": 0.9166666666666666
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 3,
+              "denominator": 2,
+              "value": 1.5
+            },
+            "primary": {
+              "numerator": 3,
+              "denominator": 4,
+              "value": 0.75
+            },
+            "assigned_only": {
+              "numerator": 3,
+              "denominator": 4,
+              "value": 0.75
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 3,
+          "score_sum": {
+            "numerator": 11,
+            "denominator": 4,
+            "value": 2.75
+          },
+          "primary": {
+            "numerator": 11,
+            "denominator": 12,
+            "value": 0.9166666666666666
+          },
+          "assigned_only": {
+            "numerator": 11,
+            "denominator": 12,
+            "value": 0.9166666666666666
+          },
+          "undefined_reason": null
+        }
+      },
+      "successful_abstention": {
+        "variant": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        },
+        "per_family": [],
+        "family_macro": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        }
+      },
+      "successful_abstention_counts": {
+        "successes": 0,
+        "negatives": 0
+      },
+      "false_abstention": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        }
+      },
+      "required_fact_coverage": {
+        "state": "unassigned",
+        "numerator": 6,
+        "denominator": 7,
+        "assigned_items": 6,
+        "primary": null
+      },
+      "required_fact_family": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 5,
+          "score_sum": {
+            "numerator": 5,
+            "denominator": 1,
+            "value": 5.0
+          },
+          "primary": null,
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "undefined_reason": "unassigned judgments"
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 1,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": null,
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": "unassigned judgments"
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 2,
+            "denominator": 1,
+            "value": 2.0
+          },
+          "primary": null,
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "undefined_reason": "unassigned judgments"
+        }
+      },
+      "required_response_checklist_coverage": {
+        "state": "defined",
+        "numerator": 5,
+        "denominator": 6,
+        "assigned_items": 6,
+        "primary": {
+          "numerator": 5,
+          "denominator": 6,
+          "value": 0.8333333333333334
+        }
+      },
+      "required_response_family": {
+        "variant": {
+          "planned_variants": 6,
+          "assigned_variants": 6,
+          "score_sum": {
+            "numerator": 5,
+            "denominator": 1,
+            "value": 5.0
+          },
+          "primary": {
+            "numerator": 5,
+            "denominator": 6,
+            "value": 0.8333333333333334
+          },
+          "assigned_only": {
+            "numerator": 5,
+            "denominator": 6,
+            "value": 0.8333333333333334
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T01",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T02",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "undefined_reason": null
+          },
+          {
+            "family_id": "T03",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 3,
+          "assigned_variants": 3,
+          "score_sum": {
+            "numerator": 5,
+            "denominator": 2,
+            "value": 2.5
+          },
+          "primary": {
+            "numerator": 5,
+            "denominator": 6,
+            "value": 0.8333333333333334
+          },
+          "assigned_only": {
+            "numerator": 5,
+            "denominator": 6,
+            "value": 0.8333333333333334
+          },
+          "undefined_reason": null
+        }
+      },
+      "citation_metrics": {
+        "citation_precision": {
+          "primary_micro": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary_micro_counts": {
+            "numerator": 7,
+            "denominator": 7
+          },
+          "assigned_only_counts": {
+            "numerator": 7,
+            "denominator": 7,
+            "ratio": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            }
+          },
+          "annotation_complete_contexts": 6,
+          "planned_contexts": 6,
+          "undefined_reason": null,
+          "per_context": {
+            "T01-v1--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T01-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v1--gold": {
+              "state": "defined",
+              "numerator": 2,
+              "denominator": 2,
+              "assigned_items": 2,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v1--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "defined_families": 3,
+          "family_macro_primary": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "target_attainment_claim_allowed": true
+        },
+        "citation_completeness": {
+          "primary_micro": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary_micro_counts": {
+            "numerator": 7,
+            "denominator": 7
+          },
+          "assigned_only_counts": {
+            "numerator": 7,
+            "denominator": 7,
+            "ratio": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            }
+          },
+          "annotation_complete_contexts": 6,
+          "planned_contexts": 6,
+          "undefined_reason": null,
+          "per_context": {
+            "T01-v1--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T01-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v1--gold": {
+              "state": "defined",
+              "numerator": 2,
+              "denominator": 2,
+              "assigned_items": 2,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T02-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v1--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T03-v2--gold": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "defined_families": 3,
+          "family_macro_primary": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "target_attainment_claim_allowed": true
+        },
+        "unsupported_claim_rate": {
+          "primary_micro": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary_micro_counts": {
+            "numerator": 0,
+            "denominator": 7
+          },
+          "assigned_only_counts": {
+            "numerator": 0,
+            "denominator": 7,
+            "ratio": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            }
+          },
+          "annotation_complete_contexts": 6,
+          "planned_contexts": 6,
+          "undefined_reason": null,
+          "per_context": {
+            "T01-v1--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T01-v2--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T02-v1--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 2,
+              "assigned_items": 2,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T02-v2--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T03-v1--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T03-v2--gold": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T01",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            {
+              "family_id": "T02",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            {
+              "family_id": "T03",
+              "planned_variants": 2,
+              "defined_variants": 2,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 0,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "defined_families": 3,
+          "family_macro_primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "target_attainment_claim_allowed": true
+        }
+      }
+    },
+    "genuine_evidence_plus_distractor": {
+      "planned_contexts": 2,
+      "correctness": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 1,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "successful_abstention": {
+        "variant": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        },
+        "per_family": [],
+        "family_macro": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        }
+      },
+      "successful_abstention_counts": {
+        "successes": 0,
+        "negatives": 0
+      },
+      "false_abstention": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 0,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": null,
+            "assigned_only": null,
+            "undefined_reason": "unassigned judgments"
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "unassigned judgments"
+        }
+      },
+      "required_fact_coverage": {
+        "state": "defined",
+        "numerator": 2,
+        "denominator": 4,
+        "assigned_items": 4,
+        "primary": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        }
+      },
+      "required_fact_family": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 1,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "required_response_checklist_coverage": {
+        "state": "defined",
+        "numerator": 0,
+        "denominator": 2,
+        "assigned_items": 2,
+        "primary": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0
+        }
+      },
+      "required_response_family": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "assigned_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "primary": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "assigned_only": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 1,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "assigned_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "undefined_reason": null
+        }
+      },
+      "citation_metrics": {
+        "citation_precision": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 1,
+            "denominator": 1,
+            "ratio": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            }
+          },
+          "annotation_complete_contexts": 1,
+          "planned_contexts": 2,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T06-v1--genuine_evidence_plus_distractor": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T06-v2--genuine_evidence_plus_distractor": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "General nonportability support and qualification loss are confirmed; separate annotation of the note-trust conclusion versus nonportability is unassigned."
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": null,
+          "defined_families": 0,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        },
+        "citation_completeness": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 1,
+            "denominator": 1,
+            "ratio": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            }
+          },
+          "annotation_complete_contexts": 1,
+          "planned_contexts": 2,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T06-v1--genuine_evidence_plus_distractor": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T06-v2--genuine_evidence_plus_distractor": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "General nonportability support and qualification loss are confirmed; separate annotation of the note-trust conclusion versus nonportability is unassigned."
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": null,
+          "defined_families": 0,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        },
+        "unsupported_claim_rate": {
+          "primary_micro": null,
+          "primary_micro_counts": null,
+          "assigned_only_counts": {
+            "numerator": 0,
+            "denominator": 1,
+            "ratio": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            }
+          },
+          "annotation_complete_contexts": 1,
+          "planned_contexts": 2,
+          "undefined_reason": "unassigned atomic annotation",
+          "per_context": {
+            "T06-v1--genuine_evidence_plus_distractor": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T06-v2--genuine_evidence_plus_distractor": {
+              "state": "unassigned",
+              "numerator": null,
+              "denominator": null,
+              "primary": null,
+              "reason": "General nonportability support and qualification loss are confirmed; separate annotation of the note-trust conclusion versus nonportability is unassigned."
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 1,
+              "zero_denominator_variants": 0,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": null,
+          "defined_families": 0,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        }
+      }
+    },
+    "distractor_only": {
+      "planned_contexts": 2,
+      "correctness": {
+        "variant": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        },
+        "per_family": [],
+        "family_macro": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        }
+      },
+      "successful_abstention": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 1,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "successful_abstention_counts": {
+        "successes": 1,
+        "negatives": 2
+      },
+      "false_abstention": {
+        "variant": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        },
+        "per_family": [],
+        "family_macro": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        }
+      },
+      "required_fact_coverage": {
+        "state": "zero_denominator",
+        "numerator": 0,
+        "denominator": 0,
+        "assigned_items": 0,
+        "primary": null
+      },
+      "required_fact_family": {
+        "variant": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        },
+        "per_family": [],
+        "family_macro": {
+          "planned_variants": 0,
+          "assigned_variants": 0,
+          "score_sum": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary": null,
+          "assigned_only": null,
+          "undefined_reason": "not applicable: zero denominator"
+        }
+      },
+      "required_response_checklist_coverage": {
+        "state": "defined",
+        "numerator": 1,
+        "denominator": 2,
+        "assigned_items": 2,
+        "primary": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        }
+      },
+      "required_response_family": {
+        "variant": {
+          "planned_variants": 2,
+          "assigned_variants": 2,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        },
+        "per_family": [
+          {
+            "family_id": "T06",
+            "planned_variants": 2,
+            "assigned_variants": 2,
+            "score_sum": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "primary": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "assigned_only": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            },
+            "undefined_reason": null
+          }
+        ],
+        "family_macro": {
+          "planned_variants": 1,
+          "assigned_variants": 1,
+          "score_sum": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "primary": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "assigned_only": {
+            "numerator": 1,
+            "denominator": 2,
+            "value": 0.5
+          },
+          "undefined_reason": null
+        }
+      },
+      "citation_metrics": {
+        "citation_precision": {
+          "primary_micro": null,
+          "primary_micro_counts": {
+            "numerator": 0,
+            "denominator": 0
+          },
+          "assigned_only_counts": {
+            "numerator": 0,
+            "denominator": 0,
+            "ratio": null
+          },
+          "annotation_complete_contexts": 2,
+          "planned_contexts": 2,
+          "undefined_reason": "zero denominator",
+          "per_context": {
+            "T06-v1--distractor_only": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            },
+            "T06-v2--distractor_only": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 0,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 2,
+              "primary": null
+            }
+          ],
+          "family_macro_defined_only": null,
+          "defined_families": 0,
+          "family_macro_primary": null,
+          "target_attainment_claim_allowed": false
+        },
+        "citation_completeness": {
+          "primary_micro": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "primary_micro_counts": {
+            "numerator": 0,
+            "denominator": 1
+          },
+          "assigned_only_counts": {
+            "numerator": 0,
+            "denominator": 1,
+            "ratio": {
+              "numerator": 0,
+              "denominator": 1,
+              "value": 0.0
+            }
+          },
+          "annotation_complete_contexts": 2,
+          "planned_contexts": 2,
+          "undefined_reason": null,
+          "per_context": {
+            "T06-v1--distractor_only": {
+              "state": "defined",
+              "numerator": 0,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            },
+            "T06-v2--distractor_only": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 1,
+              "primary": {
+                "numerator": 0,
+                "denominator": 1,
+                "value": 0.0
+              }
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "defined_families": 1,
+          "family_macro_primary": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "target_attainment_claim_allowed": true
+        },
+        "unsupported_claim_rate": {
+          "primary_micro": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "primary_micro_counts": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "assigned_only_counts": {
+            "numerator": 1,
+            "denominator": 1,
+            "ratio": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            }
+          },
+          "annotation_complete_contexts": 2,
+          "planned_contexts": 2,
+          "undefined_reason": null,
+          "per_context": {
+            "T06-v1--distractor_only": {
+              "state": "defined",
+              "numerator": 1,
+              "denominator": 1,
+              "assigned_items": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            },
+            "T06-v2--distractor_only": {
+              "state": "zero_denominator",
+              "numerator": 0,
+              "denominator": 0,
+              "assigned_items": 0,
+              "primary": null
+            }
+          },
+          "per_family": [
+            {
+              "family_id": "T06",
+              "planned_variants": 2,
+              "defined_variants": 1,
+              "unassigned_variants": 0,
+              "zero_denominator_variants": 1,
+              "primary": {
+                "numerator": 1,
+                "denominator": 1,
+                "value": 1.0
+              }
+            }
+          ],
+          "family_macro_defined_only": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "defined_families": 1,
+          "family_macro_primary": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "target_attainment_claim_allowed": true
+        }
+      }
+    }
+  },
+  "numeric_development_ratings_created": 0,
+  "original_retrieval_metrics_modified": false,
+  "instruction_adoption": "N/A: no complete explicit instruction-following annotations; do not equate factual distractor rejection with injection resistance."
+}

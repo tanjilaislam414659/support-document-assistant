@@ -1,0 +1,24 @@
+{
+  "scope": "Historical frozen research candidate; not an evaluation of this API or ticket workflow.",
+  "source_commit": "567260d981429f3f96f2efd8dc50be075e7e955b",
+  "ordinary_answerable_variants": 6,
+  "ordinary_answerable_families": 3,
+  "ordinary_correctness_mean": 0.5,
+  "ordinary_successful_abstentions": {
+    "successes": 0,
+    "negatives": 4
+  },
+  "source_span_family_macro_recall_at_5": "2/3",
+  "strict_packed_complete_variants": "2/6",
+  "ordinary_request_median_seconds": 47.57821405000868,
+  "native_peak_bytes": 7293464576,
+  "pilot_only": true,
+  "trusted_automatic_support_or_production_ready": false,
+  "limitations": [
+    "Ranking scores, citation eligibility and model statuses are not correctness or abstention proof.",
+    "Python 3.13.0 historical four-document scope; untrusted documentation content; source-span proxy has limitations.",
+    "Small related development/final families; holdout consumed; no benchmark reruns.",
+    "Experimental generator has confirmed factual/completeness/abstention failures.",
+    "API and deterministic ticket workflow are new, separately tested engineering; no improved answer-quality claim."
+  ]
+}

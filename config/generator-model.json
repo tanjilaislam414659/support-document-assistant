@@ -1,0 +1,150 @@
+{
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "attention_dropout": 0.0,
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "hidden_act": "silu",
+    "hidden_size": 1536,
+    "initializer_range": 0.02,
+    "intermediate_size": 8960,
+    "max_position_embeddings": 32768,
+    "max_window_layers": 21,
+    "model_type": "qwen2",
+    "num_attention_heads": 12,
+    "num_hidden_layers": 28,
+    "num_key_value_heads": 2,
+    "rms_norm_eps": 1e-06,
+    "rope_theta": 1000000.0,
+    "sliding_window": 32768,
+    "tie_word_embeddings": true,
+    "torch_dtype": "bfloat16",
+    "transformers_version": "4.43.1",
+    "use_cache": true,
+    "use_sliding_window": false,
+    "vocab_size": 151936
+  },
+  "excluded_files": [
+    {
+      "bytes": 1519,
+      "path": ".gitattributes",
+      "reason": "fast tokenizer.json contains vocabulary/merges; no slow tokenizer fallback or repository tooling needed"
+    },
+    {
+      "bytes": 1671839,
+      "path": "merges.txt",
+      "reason": "fast tokenizer.json contains vocabulary/merges; no slow tokenizer fallback or repository tooling needed"
+    },
+    {
+      "bytes": 2776833,
+      "path": "vocab.json",
+      "reason": "fast tokenizer.json contains vocabulary/merges; no slow tokenizer fallback or repository tooling needed"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 11343,
+      "git_blob_sha1": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/LICENSE",
+      "path": "LICENSE",
+      "role": "license/card",
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/LICENSE"
+    },
+    {
+      "bytes": 4917,
+      "git_blob_sha1": "b3327a17e2ffa52e0fd941a2810b18a9fd0e7d94",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/README.md",
+      "path": "README.md",
+      "role": "license/card",
+      "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/README.md"
+    },
+    {
+      "bytes": 660,
+      "git_blob_sha1": "f81ead14ab072d65a07817f83a3ee0e5a1890d10",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json",
+      "path": "config.json",
+      "role": "inference metadata",
+      "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json"
+    },
+    {
+      "bytes": 242,
+      "git_blob_sha1": "dfc11073787daf1b0f9c0f1499487ab5f4c93738",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json",
+      "path": "generation_config.json",
+      "role": "inference metadata",
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json"
+    },
+    {
+      "bytes": 7031645,
+      "git_blob_sha1": "443909a61d429dff23010e5bddd28ff530edda00",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json",
+      "path": "tokenizer.json",
+      "role": "inference metadata",
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json"
+    },
+    {
+      "bytes": 7305,
+      "git_blob_sha1": "07bfe0640cb5a0037f9322287fbfc682806cf672",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json",
+      "path": "tokenizer_config.json",
+      "role": "inference metadata",
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json"
+    },
+    {
+      "bytes": 3087467144,
+      "git_blob_sha1": "9127f71e7314df0064f469223749e5f237e06463",
+      "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/model.safetensors",
+      "lfs": {
+        "pointerSize": 135,
+        "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+        "size": 3087467144
+      },
+      "path": "model.safetensors",
+      "role": "only weight format; not yet acquired",
+      "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/model.safetensors"
+    }
+  ],
+  "license": {
+    "copyright": "2024 Alibaba Cloud",
+    "immutable_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/LICENSE",
+    "spdx": "Apache-2.0",
+    "verified_in_revision": true
+  },
+  "local_directory": "models/qwen2.5-1.5b-instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "pre_acquisition_resources": {
+    "available_commit_bytes": 2853634048,
+    "available_ram_bytes": 3740758016,
+    "estimate_notes": "1.54B parameters x4 bytes plus imports/KV/prefill/load conversion; estimate, not a measured requirement. 4096 total-token cap. No alternate model/precision fallback.",
+    "estimated_bfloat16_kv_cache_at_2048_bytes": 58720256,
+    "estimated_bfloat16_weight_bytes": 3087430000,
+    "estimated_float32_weight_bytes": 6174857216,
+    "estimated_process_peak_range_bytes": [
+      7500000000,
+      11000000000
+    ],
+    "estimated_selected_process_peak_range_bytes": [
+      3800000000,
+      5500000000
+    ],
+    "project_disk_free_bytes": 373473251328,
+    "recorded_utc": "2026-11-10T11:34:24.496268+00:00",
+    "selected_estimate_notes": "BF16 matches published weights, avoiding FP32 conversion. CPU SDPA; one last-position logits row; 2048 combined prompt/output tokens. Peak is uncertain; free RAM/commit are tight. A real loading/inference check must establish feasibility. No fallback model, precision, external API or pagefile changes.",
+    "selected_precision": "bfloat16",
+    "system_ram_bytes": 16969424896
+  },
+  "primary_inventory_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/revision/989aa7980e4cf806f80c7fef2b1adb7bc71aa306?blobs=true",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "schema_version": 1,
+  "selected_total_bytes": 3094523256
+}

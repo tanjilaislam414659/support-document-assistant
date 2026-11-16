@@ -1,0 +1,68 @@
+{
+  "attention": "sdpa",
+  "candidate_id": "qwen25-15b-bm25-top3-v1",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "context_total_tokens": 2048,
+  "development_pass": {
+    "attempts": 22,
+    "gold_controls": 6,
+    "misleading_controls": 4,
+    "ordinary": 12,
+    "repetitions": 1
+  },
+  "device": "cpu",
+  "frozen_runtime_files": {
+    "config/chunking.json": "ab67f359cafa310bed1080d84914f1f58d1a392e1a4f44d7a142827de7b9acd7",
+    "config/generation-prompt.txt": "4ba478ba73405df3b7a36c37cb749a65405e83d0f219ee712e580efe36aaa874",
+    "config/generator-dependencies.json": "6f010c9d8a2c77b386dbfe5f75706a8cddb414952de39782e69ddf8b6f93cdc0",
+    "config/generator-model.json": "010731f5446bcd02ede344837ae7a824a0e993c08c042de2958703b4b6d830f6",
+    "config/generator-tokenizer-inspection.json": "bbd2dab987a72dd3bba87259d28bd29eae519a4e14b02e6a4aa19d2490094de5",
+    "config/retrieval.json": "1adf214bea9290dd789e030fa62d381683d55c3e7dd58f42cd8f9c449a19ed2d",
+    "config/source-exclusions.json": "d98f9d86bb62c8b1136575d4979648f7a39d0ba73f5ce6fcbe3171349cb2f0bc",
+    "config/sources.json": "78556fa80766a5ffe9bf465f1999dd4e2fa7aa72c1832fb2e41c097fc1170c9c"
+  },
+  "generation": {
+    "bos_token_id": 151643,
+    "cache_implementation": "dynamic",
+    "do_sample": false,
+    "eos_token_id": [
+      151645,
+      151643
+    ],
+    "max_new_tokens": 192,
+    "min_new_tokens": 0,
+    "num_beams": 1,
+    "pad_token_id": 151643,
+    "repetition_penalty": 1.0,
+    "use_cache": true
+  },
+  "input_tokenizer_truncation": false,
+  "limitations": [
+    "Python 3.13.0 historical documentation only",
+    "Citation resolution is structural; semantic support and answer quality await human review",
+    "Retrieved/source text is untrusted; no commands or tickets are executed",
+    "Whole-parent packing can omit top-3 evidence for the fixed context budget",
+    "CPU BF16 can be slow; no measured throughput guarantee"
+  ],
+  "max_answer_characters": 800,
+  "max_citations": 8,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_inventory": "config/generator-model.json",
+  "model_max_position_embeddings": 32768,
+  "model_precision": "bfloat16",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "output_directory": "reports/generation/qwen-bm25-development-001",
+  "output_token_cap": 192,
+  "prompt_file": "config/generation-prompt.txt",
+  "prompt_id": "python313-evidence-json-v1",
+  "retrieval": {
+    "method": "bm25-keyword-v1",
+    "pack": "whole parents in rank order; skip and record non-fitting parents; no further retrieval",
+    "top_k": 3
+  },
+  "run_id": "qwen-bm25-development-001",
+  "schema_version": 1,
+  "seed": 0,
+  "torch_inter_op_threads": 1,
+  "torch_intra_op_threads": 2
+}

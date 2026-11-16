@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==78.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-document-assistant-research"
+version = "0.4.0"
+description = "Selected frozen runtime and evaluator source snapshot; no benchmark runner"
+requires-python = ">=3.13,<3.14"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
