@@ -1,10 +1,37 @@
 # Support Document Assistant
 
-**Documentation search → source selection → editable draft → revision review.**
+**Find relevant documentation and prepare a support draft with linked sources.**
 
-A local support workspace built with FastAPI, plain HTML/CSS/JavaScript and SQLite. Search four pinned CPython 3.13.0 documentation files, read the source passages, and prepare a draft that keeps your statements, documentation quotations and human notes separate. Nothing is submitted and no remediation commands are executed.
+Support Document Assistant is a local workspace for people asking for or handling Python environment and package-installation questions. It helps a user find documentation, connect selected passages to a reported problem, and prepare a draft for human review.
 
-The default workflow is model-free. A separate Windows-only Qwen3 endpoint is experimental, explicitly enabled and always unverified.
+## Motivation
+
+A useful support request brings together several pieces of information: what went wrong, the environment in which it happened, what is still unknown, and the documentation relevant to the problem. Keeping user observations separate from documentation quotations makes the basis of the request easier to inspect.
+
+The project originally set out to build a retrieval-augmented generation (RAG) assistant: a user would ask a question, the system would retrieve relevant documentation, and a local language model would answer with supporting citations. The evaluation also tested whether the system could recognise when the documents did not contain enough information to answer.
+
+Testing exposed important limitations. The candidate sometimes produced incorrect or incomplete answers, selected irrelevant citations, or made unsupported claims while labelling its response `insufficient_evidence`. These findings shaped the application: generation remains optional and experimental, while the default workflow lets a person inspect the original passages and decide what to include in a support draft. The [research findings below](#research-findings-including-failures) retain the measured failures and their limitations.
+
+The motivation is therefore both practical and investigative: provide a workspace for assembling a documented support request, and demonstrate how evaluation results inform the design and limits of an application using a language model.
+
+## Example: from a problem to a support draft
+
+A user is working on two Python projects that need different package versions and wants help keeping them separate.
+
+1. **Describe the problem** in ordinary language and search the documentation.
+2. **Read the retrieved passages** and inspect their source links and Python version.
+3. **Select useful quotations** and add the observed issue, environment details and questions that still need answering.
+4. **Edit and review the saved draft**, then copy it into an email, helpdesk ticket or other support channel.
+
+**The final output is a saved support-ticket draft containing the user's report, selected documentation quotations, source links and review state.** The sources can also be read directly without creating a draft. Sending the request and making changes to a computer remain manual actions.
+
+## Scope and implementation
+
+The demonstration searches **four pinned CPython 3.13.0 documentation files** covering virtual environments, `ensurepip` and package installation. Its usefulness is limited to that collection; it is not a general search engine or a complete Python support knowledge base.
+
+The workspace is built with FastAPI, plain HTML/CSS/JavaScript and SQLite. Its engineering focus includes source provenance, retrieval and answer evaluation, revision-based review, API testing, Docker packaging and CI.
+
+The default workflow is model-free. A separate Windows-only Qwen3 endpoint is experimental, explicitly enabled and always unverified. Model output is never automatically inserted into a draft or approved.
 
 ![Desktop workflow using labelled synthetic demonstration data](docs/images/desktop-workflow.png)
 
