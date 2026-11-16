@@ -80,7 +80,7 @@ Historical ordinary HTTP timings were n=10, median 47.578s; native peak RAM was 
 
 ## Engineering checks and status
 
-Synthetic API, UI and Docker checks verify integration and provenance, not answer quality. CI uses pinned Actions identities and minimal permissions; **hosted Actions remains pending until actually executed**. No passing badge is claimed.
+Synthetic API, UI and Docker checks verify integration and provenance, not answer quality. CI uses pinned Actions identities and minimal permissions; **hosted Actions has passed**, including the synthetic browser and default container workflows. See the [workflow runs](https://github.com/tanjilaislam414659/support-document-assistant/actions/workflows/application.yml). These checks do not measure answer quality.
 
 [Application verification](docs/verification.md) · [Prepared v0.2.0 release notes](RELEASE_NOTES.md) · [Portfolio walkthrough](docs/portfolio.md)
 

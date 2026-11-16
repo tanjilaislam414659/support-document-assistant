@@ -8,7 +8,7 @@ Included: application/UI source and synthetic tests; Docker/Compose/CI; the unch
 
 Excluded: environments, weights/native binaries, caches, DBs, real user-entered tickets, credentials/personal email, machine logs, verbatim authorization messages, original Git objects/tags and unnecessary internal freeze/preparation records. Context projections are explicitly curated, with original/retained hashes rather than false full-file identity claims. Third-party licensing remains separate. MIT copyright 2026 Tanjila Islam is approved; separate third-party notices are retained.
 
-The README leads with the runnable model-free workflow and retains ordinary correctness3/6, successful abstention0/4, Recall@5 family macro2/3, primary citation N/A fields, consumed/visible small-family holdout and T01 span-proxy caveat. No generation improvement or readiness claim is made. Linux experimental generation is unsupported and hosted Actions remains pending.
+The README leads with the runnable model-free workflow and retains ordinary correctness3/6, successful abstention0/4, Recall@5 family macro2/3, primary citation N/A fields, consumed/visible small-family holdout and T01 span-proxy caveat. No generation improvement or readiness claim is made. Linux experimental generation is unsupported. Hosted Actions was pending at preparation closure and has since passed; see [verification](verification.md).
 
 Publication-only changes make the default launcher use the same packaged corpus and isolate Docker image/project/test names. Frozen model, prompt, packing, source mappings, validation and final scores do not change. No benchmark or real-model request occurred.
 

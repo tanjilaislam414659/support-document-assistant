@@ -36,7 +36,7 @@ Docker tests own UUID containers/volumes and a separate Compose project, and rem
 
 ## CI and demonstrations
 
-.github/workflows/application.yml has contents:read, pinned actions and no persisted credentials. Its sparse checkout needs no root research package, references, final results, private DB or ignored model/cache. Local verification is described in [verification](verification.md); hosted Actions remains pending.
+.github/workflows/application.yml has contents:read, pinned actions and no persisted credentials. Its sparse checkout needs no root research package, references, final results, private DB or ignored model/cache. Local verification is described in [verification](verification.md); hosted Actions has passed; see [workflow runs](https://github.com/tanjilaislam414659/support-document-assistant/actions/workflows/application.yml).
 
 Clean screenshots use only synthetic Orbit data, with generation disabled:
 
